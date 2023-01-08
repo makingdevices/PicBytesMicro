@@ -168,7 +168,7 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-screenshot]: /images/PCB_sponsor.png
 [product-screenshot]: images/screenshot.jpg
 [PIC]: https://img.shields.io/badge/PIC18LF45K50-000000?style=for-the-badge
-[PIC-url]: http://ww1.microchip.com/downloads/en/devicedoc/40001350f.pdf
+[PIC-url]: https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2X_45K50-30000684B.pdf
 [kicad-shield]: https://img.shields.io/badge/kicad-0b03fc?style=for-the-badge&logo=kicad&logoColor=white
 [kicad-url]: https://www.kicad.org/
 [YT-screenshot]: images/YT_assembly.PNG

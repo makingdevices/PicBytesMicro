@@ -3,13 +3,13 @@
 	Rubén García Segovia
 	  Pic Bytes Micro
 */
-#include <p18f4550.h>
+#include <p18f45k50.h>
 #include <delays.h>
 #include "core.h"
 #include "snake.h"
 
 // CONFIG1H
-#pragma config FOSC = HS // Oscillator Selection bits (HS oscillator, PLL enabled (HSPLL))
+//#pragma config FOSC = INTOSC // Oscillator Selection bits (HS oscillator, PLL enabled (HSPLL))
 #pragma config FCMEN = OFF // Fail-Safe Clock Monitor Enable bit (Fail-Safe Clock Monitor disabled)
 #pragma config IESO = OFF // Internal/External Oscillator Switchover bit (Oscillator Switchover mode disabled)
 #pragma config LVP = OFF //Disable low voltage programmer so we can use RB5.

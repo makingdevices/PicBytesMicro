@@ -383,7 +383,7 @@ void timer0_start(void){
     T0CONbits.T0CS = 0;     // increment on instruction cycle input
     T0CONbits.T0SE = 0;     // increment on low--> high transition of clock
     T0CONbits.PSA = 0;
-	PIE2bits.USBIE = 0;
+//	PIE2bits.USBIE = 0;
 	T0CONbits.T0PS2 = 0;
 	T0CONbits.T0PS1 = 0;
 	T0CONbits.T0PS0 = 0;

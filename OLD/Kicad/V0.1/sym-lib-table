@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PicBytesMicro-rescue)(type Legacy)(uri ${KIPRJMOD}/PicBytesMicro-rescue.lib)(options "")(descr ""))
+)

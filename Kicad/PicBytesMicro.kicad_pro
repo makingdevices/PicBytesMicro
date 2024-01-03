@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.346,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -48,8 +48,19 @@
           "min_clearance": 0.3
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|116450000|109650000|97157d48-489b-4475-bc1d-0179f6e5a788|c9e43b33-4a69-49a1-a7f3-2289e529290c",
+        "clearance|119750000|109250000|4f01a54d-e8aa-499e-8927-852b8e9daeb8|3e53bfbb-a74d-451d-a6dc-fba7db468cb7",
+        "courtyards_overlap|120299999|115700001|00000000-0000-0000-0000-0000600c08cf|2334493b-a97f-4d2b-9b55-b56cb711f116",
+        "courtyards_overlap|135425001|116400001|00000000-0000-0000-0000-0000600c08fc|620e37ba-7361-4f9b-a370-ba433d593772"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -108,14 +119,14 @@
       "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09999999999999999,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.024999999999999998,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.09999999999999999,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
@@ -166,8 +177,16 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.35
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -400,7 +419,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

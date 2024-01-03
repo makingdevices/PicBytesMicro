@@ -1,7 +1,7 @@
 /*	Making Devices 2020
 	https://makingdevices.com
 	Rubén García Segovia
-	  Pic Bytes Micro
+	Pic Bytes Micro
 */
 
 #ifndef __Core
@@ -267,11 +267,11 @@ void clean_buttons(void){
 }
 
 void update_buttons(void){
-	if(PORTAbits.RA0==0) write_button(1);
-	if(PORTAbits.RA1==0) write_button(2);
-	if(PORTAbits.RA2==0) write_button(3);
-	if(PORTAbits.RA3==0) write_button(4);
-	if(PORTCbits.RC0==0) write_button(5);
+	if(PORTAbits.RA0==0) write_button(1); // Up
+	if(PORTAbits.RA1==0) write_button(2); // Down
+	if(PORTAbits.RA2==0) write_button(3); // Left
+	if(PORTAbits.RA3==0) write_button(4); // Right
+	if(PORTAbits.RA4==0) write_button(5); // A
 
 }
 
@@ -299,12 +299,13 @@ void print_screen(void){
 	screenmap_index++;
 	if(screenmap_index==16)screenmap_index=0;
 }
-
+/* FOR LATER RECOVERY 18/12/2023
 char read_screen(char x, char y){
 	char answer = 0b00000000;
 	char index = 0;
 	x--;
 	y--;
+	//if(x==8 || x == 9){
 	if(x==8 || x == 9){
 		if(y>=8 && y<16){
 			y-=8;
@@ -316,8 +317,26 @@ char read_screen(char x, char y){
 	answer = screenmap[y+index] >> x;
 	answer = answer&0b00000001;
 	return answer;
-}
+}*/
 
+char read_screen(char x, char y){
+	char answer = 0b00000000;
+	char index = 0;
+	x--;
+	y--;
+	if(x==8 || x == 9){
+		if(y>=8 && y<16){
+			y-=8;
+			x+=2;
+		}
+		x -=8;
+		index = 16;
+	}
+	x = 7 - x;
+	answer = screenmap[y+index] >> x;
+	answer = answer&0b00000001;
+	return answer;
+}
 
 
 void write_screen(char x, char y, char value){
@@ -406,7 +425,7 @@ void splash_init(){
 	TRISC = 0b00000001;
 	TRISD = 0;
 	TRISE = 0;
-	timer0_start();/*
+	timer0_start();
 	for(g=1;g<17;g++){
 		for(j=1;j<11;j++){
 			write_screen(j,g,1);
@@ -449,7 +468,7 @@ void splash_init(){
 		remove_sprite(66-i,9,letter_S);
 		print_sprite(65-i,9,letter_S);
 		Delay10KTCYx(10);
-} */
+} 
 }
 
 void menu(){

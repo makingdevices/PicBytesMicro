@@ -9,7 +9,7 @@
     (date "2020-12-30")
     (rev "v0.1")
     (company "Making Devices")
-    (comment 1 "10 x16 LED")
+    (comment 1 "Rubén G.S.")
   )
 
   (lib_symbols
@@ -4670,163 +4670,163 @@
     )
   )
 
-  (hierarchical_label "CR5" (shape input) (at 391.16 295.91 180)
+  (hierarchical_label "CR5" (shape input) (at 391.16 295.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 07308fd5-9e44-4af3-abfa-dbd9cd5ffb0d)
   )
-  (hierarchical_label "Vgnd_screen" (shape input) (at 381 344.17 180)
+  (hierarchical_label "Vgnd_screen" (shape input) (at 381 344.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0a8e09fd-87bd-4776-b6f9-072bdeb5cbf3)
   )
-  (hierarchical_label "CC4" (shape input) (at 417.83 60.96 180)
+  (hierarchical_label "CC4" (shape input) (at 417.83 60.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 10c5d72f-5ae9-412d-a6d0-b191b3d99e4f)
   )
-  (hierarchical_label "CC2" (shape input) (at 295.91 58.42 180)
+  (hierarchical_label "CC2" (shape input) (at 295.91 58.42 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 112ad242-150f-42c2-b237-cd72a1ee7e40)
   )
-  (hierarchical_label "CR7" (shape input) (at 511.81 191.77 180)
+  (hierarchical_label "CR7" (shape input) (at 511.81 191.77 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3044879f-82f6-41ee-9531-a087b28731ba)
   )
-  (hierarchical_label "CR4" (shape input) (at 327.66 187.96 180)
+  (hierarchical_label "CR4" (shape input) (at 327.66 187.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 352bcb32-a9f9-497b-8239-85bf538571aa)
   )
-  (hierarchical_label "CC7" (shape input) (at 295.91 106.68 180)
+  (hierarchical_label "CC7" (shape input) (at 295.91 106.68 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3558ee63-3fdc-45aa-a42f-6f40289077f3)
   )
-  (hierarchical_label "Vgnd_screen" (shape input) (at 379.73 237.49 180)
+  (hierarchical_label "Vgnd_screen" (shape input) (at 379.73 237.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4118a7f0-7f38-4014-b1f5-12cede2ccc88)
   )
-  (hierarchical_label "CR6" (shape input) (at 450.85 297.18 180)
+  (hierarchical_label "CR6" (shape input) (at 450.85 297.18 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4501472a-9283-4670-8720-617c10ffe83f)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 509.27 76.2 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 509.27 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 52ae9f6b-c2d8-4f4e-9859-257c3ae812a4)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 266.7 72.39 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 266.7 72.39 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 54df9c89-b627-4ffc-b45a-69c43c24a0bd)
   )
-  (hierarchical_label "CR0" (shape input) (at 190.5 151.13 180)
+  (hierarchical_label "CR0" (shape input) (at 190.5 151.13 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6915e5b3-e3ef-4db3-b1f8-01918e0ef0a0)
   )
-  (hierarchical_label "CC1" (shape input) (at 233.68 57.15 180)
+  (hierarchical_label "CC1" (shape input) (at 233.68 57.15 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6ce73632-b7fe-4382-aac5-beddfc96ff93)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 266.7 24.13 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 266.7 24.13 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7f336890-8856-474d-8994-c40345707fed)
   )
-  (hierarchical_label "CR0" (shape input) (at 191.77 257.81 180)
+  (hierarchical_label "CR0" (shape input) (at 191.77 257.81 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8082bee9-6dc8-4d6f-85b8-2be94f6b2d22)
   )
-  (hierarchical_label "CR3" (shape input) (at 374.65 154.94 180)
+  (hierarchical_label "CR3" (shape input) (at 374.65 154.94 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 85f7e724-294a-432a-82c0-7d7af6902a32)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 450.85 27.94 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 450.85 27.94 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 86fe4951-bb17-4153-858d-a104a3981fd1)
   )
-  (hierarchical_label "CC6" (shape input) (at 233.68 105.41 180)
+  (hierarchical_label "CC6" (shape input) (at 233.68 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 90d5a997-9892-449c-8155-240e8dee2aa6)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 328.93 73.66 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 328.93 73.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 985576d0-2a2a-4440-98e2-e962d8e6b5a7)
   )
-  (hierarchical_label "CR1" (shape input) (at 254 259.08 180)
+  (hierarchical_label "CR1" (shape input) (at 254 259.08 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9c308cce-fefd-4475-b7ad-47d82d5da983)
   )
-  (hierarchical_label "CR7" (shape input) (at 513.08 298.45 180)
+  (hierarchical_label "CR7" (shape input) (at 513.08 298.45 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a4a8fcac-7367-4e65-ab31-38cf4701f7f7)
   )
-  (hierarchical_label "CR4" (shape input) (at 328.93 294.64 180)
+  (hierarchical_label "CR4" (shape input) (at 328.93 294.64 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a7f379d0-9f6c-41b7-89c3-bbb57e546d03)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 509.27 27.94 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 509.27 27.94 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a997c0b8-022e-475f-9d89-034e73c426b3)
   )
-  (hierarchical_label "CC10" (shape input) (at 476.25 109.22 180)
+  (hierarchical_label "CC10" (shape input) (at 476.25 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b9dac958-d1ff-4a64-9772-d1fc2a1118a9)
   )
-  (hierarchical_label "CC9" (shape input) (at 417.83 109.22 180)
+  (hierarchical_label "CC9" (shape input) (at 417.83 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bd36f170-e3a3-4dd5-8198-b3a859210b09)
   )
-  (hierarchical_label "UN" (shape input) (at 344.17 226.06 180)
+  (hierarchical_label "UN" (shape input) (at 344.17 226.06 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bd3b63b0-b3de-43aa-a3c7-37c011d6954f)
   )
-  (hierarchical_label "CC3" (shape input) (at 355.6 59.69 180)
+  (hierarchical_label "CC3" (shape input) (at 355.6 59.69 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c78e5970-5e45-439f-b1c2-715400690bc5)
   )
-  (hierarchical_label "CR1" (shape input) (at 252.73 152.4 180)
+  (hierarchical_label "CR1" (shape input) (at 252.73 152.4 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid cd78bb0f-dd2e-4a90-80bd-a74c95cc1395)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 388.62 74.93 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 388.62 74.93 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d0e454ab-5d20-4890-96a7-ae1cba347923)
   )
-  (hierarchical_label "CR6" (shape input) (at 449.58 190.5 180)
+  (hierarchical_label "CR6" (shape input) (at 449.58 190.5 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d6bc84ec-f1aa-4867-a2e8-29ce4462a58b)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 450.85 76.2 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 450.85 76.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid dbe4dd32-b113-489a-9651-e3e44c96b116)
   )
-  (hierarchical_label "DN" (shape input) (at 345.44 332.74 180)
+  (hierarchical_label "DN" (shape input) (at 345.44 332.74 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e2430b79-fcea-4512-94ce-f0ab73f6f125)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 388.62 26.67 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 388.62 26.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e58669c1-cda5-4e7f-91ad-ffe883a0ec7d)
   )
-  (hierarchical_label "CC8" (shape input) (at 355.6 107.95 180)
+  (hierarchical_label "CC8" (shape input) (at 355.6 107.95 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e8a785af-217e-4709-8dd8-6ccc10e3d029)
   )
-  (hierarchical_label "Vcc_screen" (shape input) (at 328.93 25.4 180)
+  (hierarchical_label "Vcc_screen" (shape input) (at 328.93 25.4 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e8c4c200-26e9-4ec2-93f6-60b7f57d4a59)
   )
-  (hierarchical_label "CR3" (shape input) (at 375.92 261.62 180)
+  (hierarchical_label "CR3" (shape input) (at 375.92 261.62 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid eb243670-9ffe-410e-a15b-5fdd95165f57)
   )
-  (hierarchical_label "CC5" (shape input) (at 476.25 60.96 180)
+  (hierarchical_label "CC5" (shape input) (at 476.25 60.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ec555e82-7fbd-4b8d-94d3-78e7c252010e)
   )
-  (hierarchical_label "CR5" (shape input) (at 389.89 189.23 180)
+  (hierarchical_label "CR5" (shape input) (at 389.89 189.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f35ad1c2-001d-41d6-b535-b3811de09e1c)
   )
-  (hierarchical_label "CR2" (shape input) (at 313.69 260.35 180)
+  (hierarchical_label "CR2" (shape input) (at 313.69 260.35 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f4778158-4137-4757-8017-4ab4b2162f42)
   )
-  (hierarchical_label "CR2" (shape input) (at 312.42 153.67 180)
+  (hierarchical_label "CR2" (shape input) (at 312.42 153.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid fe4bf16e-6fa5-4d6f-bfd5-9a2b7bf703f9)
   )
@@ -11874,7 +11874,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 256.54 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006014bdc3)
-    (property "Reference" "Q3" (at 270.2052 55.9816 0)
+    (property "Reference" "Q4" (at 270.2052 55.9816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 270.2052 58.293 0)
@@ -11913,7 +11913,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -11966,7 +11966,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 236.22 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060228e8c)
-    (property "Reference" "R4K7_3" (at 245.11 51.435 0)
+    (property "Reference" "R4K7_4" (at 245.11 51.435 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 245.11 53.7464 0)
@@ -12001,7 +12001,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_3") (unit 1)
+          (reference "R4K7_4") (unit 1)
         )
       )
     )
@@ -12010,7 +12010,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 318.77 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060417ca6)
-    (property "Reference" "Q7" (at 332.4352 57.2516 0)
+    (property "Reference" "Q8" (at 332.4352 57.2516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 332.4352 59.563 0)
@@ -12049,7 +12049,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q7") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -12102,7 +12102,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 298.45 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060417cc1)
-    (property "Reference" "R4K7_7" (at 307.34 52.705 0)
+    (property "Reference" "R4K7_8" (at 307.34 52.705 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 307.34 55.0164 0)
@@ -12137,7 +12137,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_7") (unit 1)
+          (reference "R4K7_8") (unit 1)
         )
       )
     )
@@ -12146,7 +12146,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 378.46 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000604658d4)
-    (property "Reference" "Q15" (at 392.1252 58.5216 0)
+    (property "Reference" "Q16" (at 392.1252 58.5216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 392.1252 60.833 0)
@@ -12185,7 +12185,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q15") (unit 1)
+          (reference "Q16") (unit 1)
         )
       )
     )
@@ -12238,7 +12238,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 358.14 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000604658ef)
-    (property "Reference" "R4K7_15" (at 367.03 53.975 0)
+    (property "Reference" "R4K7_16" (at 367.03 53.975 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 367.03 56.2864 0)
@@ -12273,7 +12273,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_15") (unit 1)
+          (reference "R4K7_16") (unit 1)
         )
       )
     )
@@ -12282,7 +12282,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 440.69 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060465901)
-    (property "Reference" "Q21" (at 454.3552 59.7916 0)
+    (property "Reference" "Q22" (at 454.3552 59.7916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 454.3552 62.103 0)
@@ -12321,7 +12321,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q21") (unit 1)
+          (reference "Q22") (unit 1)
         )
       )
     )
@@ -12374,7 +12374,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 420.37 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006046591c)
-    (property "Reference" "R4K7_21" (at 429.26 55.245 0)
+    (property "Reference" "R4K7_22" (at 429.26 55.245 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 429.26 57.5564 0)
@@ -12409,7 +12409,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_21") (unit 1)
+          (reference "R4K7_22") (unit 1)
         )
       )
     )
@@ -12418,7 +12418,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 499.11 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000604af6be)
-    (property "Reference" "Q25" (at 512.7752 59.7916 0)
+    (property "Reference" "Q26" (at 512.7752 59.7916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 512.7752 62.103 0)
@@ -12457,7 +12457,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q25") (unit 1)
+          (reference "Q26") (unit 1)
         )
       )
     )
@@ -12510,7 +12510,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 478.79 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000604af6d9)
-    (property "Reference" "R4K7_25" (at 487.68 55.245 0)
+    (property "Reference" "R4K7_26" (at 487.68 55.245 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 487.68 57.5564 0)
@@ -12545,7 +12545,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_25") (unit 1)
+          (reference "R4K7_26") (unit 1)
         )
       )
     )
@@ -12554,7 +12554,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 256.54 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050dac5)
-    (property "Reference" "Q4" (at 270.2052 104.2416 0)
+    (property "Reference" "Q5" (at 270.2052 104.2416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 270.2052 106.553 0)
@@ -12593,7 +12593,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -12646,7 +12646,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 236.22 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050dae0)
-    (property "Reference" "R4K7_4" (at 245.11 99.695 0)
+    (property "Reference" "R4K7_5" (at 245.11 99.695 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 245.11 102.0064 0)
@@ -12681,7 +12681,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_4") (unit 1)
+          (reference "R4K7_5") (unit 1)
         )
       )
     )
@@ -12690,7 +12690,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 318.77 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050daf2)
-    (property "Reference" "Q8" (at 332.4352 105.5116 0)
+    (property "Reference" "Q9" (at 332.4352 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 332.4352 107.823 0)
@@ -12729,7 +12729,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q8") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
     )
@@ -12782,7 +12782,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 298.45 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050db0d)
-    (property "Reference" "R4K7_8" (at 307.34 100.965 0)
+    (property "Reference" "R4K7_9" (at 307.34 100.965 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 307.34 103.2764 0)
@@ -12817,7 +12817,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_8") (unit 1)
+          (reference "R4K7_9") (unit 1)
         )
       )
     )
@@ -12826,7 +12826,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 378.46 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050db1f)
-    (property "Reference" "Q16" (at 392.1252 106.7816 0)
+    (property "Reference" "Q17" (at 392.1252 106.7816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 392.1252 109.093 0)
@@ -12865,7 +12865,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q16") (unit 1)
+          (reference "Q17") (unit 1)
         )
       )
     )
@@ -12918,7 +12918,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 358.14 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050db3a)
-    (property "Reference" "R4K7_16" (at 367.03 102.235 0)
+    (property "Reference" "R4K7_17" (at 367.03 102.235 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 367.03 104.5464 0)
@@ -12953,7 +12953,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_16") (unit 1)
+          (reference "R4K7_17") (unit 1)
         )
       )
     )
@@ -12962,7 +12962,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 440.69 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050db4c)
-    (property "Reference" "Q22" (at 454.3552 108.0516 0)
+    (property "Reference" "Q23" (at 454.3552 108.0516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 454.3552 110.363 0)
@@ -13001,7 +13001,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q22") (unit 1)
+          (reference "Q23") (unit 1)
         )
       )
     )
@@ -13054,7 +13054,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 420.37 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050db67)
-    (property "Reference" "R4K7_22" (at 429.26 103.505 0)
+    (property "Reference" "R4K7_23" (at 429.26 103.505 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 429.26 105.8164 0)
@@ -13089,7 +13089,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_22") (unit 1)
+          (reference "R4K7_23") (unit 1)
         )
       )
     )
@@ -13098,7 +13098,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 499.11 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050db79)
-    (property "Reference" "Q26" (at 512.7752 108.0516 0)
+    (property "Reference" "Q27" (at 512.7752 108.0516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 512.7752 110.363 0)
@@ -13137,7 +13137,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q26") (unit 1)
+          (reference "Q27") (unit 1)
         )
       )
     )
@@ -13190,7 +13190,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 478.79 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006050db94)
-    (property "Reference" "R4K7_26" (at 487.68 103.505 0)
+    (property "Reference" "R4K7_27" (at 487.68 103.505 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 487.68 105.8164 0)
@@ -13225,7 +13225,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_26") (unit 1)
+          (reference "R4K7_27") (unit 1)
         )
       )
     )
@@ -13234,7 +13234,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 213.36 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b5da)
-    (property "Reference" "Q1" (at 227.0252 149.9616 0)
+    (property "Reference" "Q2" (at 227.0252 149.9616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 227.0252 152.273 0)
@@ -13273,7 +13273,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -13282,7 +13282,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 193.04 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b5f5)
-    (property "Reference" "R4K7_1" (at 201.93 145.415 0)
+    (property "Reference" "R4K7_2" (at 201.93 145.415 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 201.93 147.7264 0)
@@ -13317,7 +13317,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_1") (unit 1)
+          (reference "R4K7_2") (unit 1)
         )
       )
     )
@@ -13326,7 +13326,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 275.59 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b607)
-    (property "Reference" "Q5" (at 289.2552 151.2316 0)
+    (property "Reference" "Q6" (at 289.2552 151.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 289.2552 153.543 0)
@@ -13365,7 +13365,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q5") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -13374,7 +13374,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 255.27 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b622)
-    (property "Reference" "R4K7_5" (at 264.16 146.685 0)
+    (property "Reference" "R4K7_6" (at 264.16 146.685 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 264.16 148.9964 0)
@@ -13409,7 +13409,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_5") (unit 1)
+          (reference "R4K7_6") (unit 1)
         )
       )
     )
@@ -13418,7 +13418,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 335.28 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b634)
-    (property "Reference" "Q9" (at 348.9452 152.5016 0)
+    (property "Reference" "Q10" (at 348.9452 152.5016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 348.9452 154.813 0)
@@ -13457,7 +13457,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q9") (unit 1)
+          (reference "Q10") (unit 1)
         )
       )
     )
@@ -13466,7 +13466,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 314.96 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b64f)
-    (property "Reference" "R4K7_9" (at 323.85 147.955 0)
+    (property "Reference" "R4K7_10" (at 323.85 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 323.85 150.2664 0)
@@ -13501,7 +13501,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_9") (unit 1)
+          (reference "R4K7_10") (unit 1)
         )
       )
     )
@@ -13510,7 +13510,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 397.51 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b661)
-    (property "Reference" "Q17" (at 411.1752 153.7716 0)
+    (property "Reference" "Q18" (at 411.1752 153.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 411.1752 156.083 0)
@@ -13549,7 +13549,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q17") (unit 1)
+          (reference "Q18") (unit 1)
         )
       )
     )
@@ -13558,7 +13558,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 377.19 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b67c)
-    (property "Reference" "R4K7_17" (at 386.08 149.225 0)
+    (property "Reference" "R4K7_18" (at 386.08 149.225 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 386.08 151.5364 0)
@@ -13593,7 +13593,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_17") (unit 1)
+          (reference "R4K7_18") (unit 1)
         )
       )
     )
@@ -13602,7 +13602,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 350.52 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b68e)
-    (property "Reference" "Q11" (at 364.1852 186.7916 0)
+    (property "Reference" "Q12" (at 364.1852 186.7916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 364.1852 189.103 0)
@@ -13641,7 +13641,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q11") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
     )
@@ -13650,7 +13650,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 330.2 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b6a9)
-    (property "Reference" "R4K7_11" (at 339.09 182.245 0)
+    (property "Reference" "R4K7_12" (at 339.09 182.245 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 339.09 184.5564 0)
@@ -13685,7 +13685,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_11") (unit 1)
+          (reference "R4K7_12") (unit 1)
         )
       )
     )
@@ -13694,7 +13694,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 412.75 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b6bb)
-    (property "Reference" "Q19" (at 426.4152 188.0616 0)
+    (property "Reference" "Q20" (at 426.4152 188.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 426.4152 190.373 0)
@@ -13733,7 +13733,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q19") (unit 1)
+          (reference "Q20") (unit 1)
         )
       )
     )
@@ -13742,7 +13742,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 392.43 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b6d6)
-    (property "Reference" "R4K7_19" (at 401.32 183.515 0)
+    (property "Reference" "R4K7_20" (at 401.32 183.515 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 401.32 185.8264 0)
@@ -13777,7 +13777,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_19") (unit 1)
+          (reference "R4K7_20") (unit 1)
         )
       )
     )
@@ -13786,7 +13786,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 472.44 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b6e8)
-    (property "Reference" "Q23" (at 486.1052 189.3316 0)
+    (property "Reference" "Q24" (at 486.1052 189.3316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 486.1052 191.643 0)
@@ -13825,7 +13825,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q23") (unit 1)
+          (reference "Q24") (unit 1)
         )
       )
     )
@@ -13834,7 +13834,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 452.12 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b703)
-    (property "Reference" "R4K7_23" (at 461.01 184.785 0)
+    (property "Reference" "R4K7_24" (at 461.01 184.785 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 461.01 187.0964 0)
@@ -13869,7 +13869,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_23") (unit 1)
+          (reference "R4K7_24") (unit 1)
         )
       )
     )
@@ -13878,7 +13878,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 534.67 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b715)
-    (property "Reference" "Q27" (at 548.3352 190.6016 0)
+    (property "Reference" "Q28" (at 548.3352 190.6016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 548.3352 192.913 0)
@@ -13917,7 +13917,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q27") (unit 1)
+          (reference "Q28") (unit 1)
         )
       )
     )
@@ -13926,7 +13926,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 514.35 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006057b730)
-    (property "Reference" "R4K7_27" (at 523.24 186.055 0)
+    (property "Reference" "R4K7_28" (at 523.24 186.055 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 523.24 188.3664 0)
@@ -13961,7 +13961,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_27") (unit 1)
+          (reference "R4K7_28") (unit 1)
         )
       )
     )
@@ -13970,7 +13970,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 369.57 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006100cbef)
-    (property "Reference" "Q13" (at 383.2352 224.8916 0)
+    (property "Reference" "Q14" (at 383.2352 224.8916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 383.2352 227.203 0)
@@ -14009,7 +14009,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q13") (unit 1)
+          (reference "Q14") (unit 1)
         )
       )
     )
@@ -14018,7 +14018,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 346.71 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006100e9d2)
-    (property "Reference" "R4K7_13" (at 355.6 220.345 0)
+    (property "Reference" "R4K7_14" (at 355.6 220.345 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 355.6 222.6564 0)
@@ -14053,7 +14053,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_13") (unit 1)
+          (reference "R4K7_14") (unit 1)
         )
       )
     )
@@ -14062,7 +14062,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 214.63 257.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd0e4)
-    (property "Reference" "Q2" (at 228.2952 256.6416 0)
+    (property "Reference" "Q3" (at 228.2952 256.6416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 228.2952 258.953 0)
@@ -14101,7 +14101,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q2") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -14110,7 +14110,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 194.31 257.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd0f0)
-    (property "Reference" "R4K7_2" (at 203.2 252.095 0)
+    (property "Reference" "R4K7_3" (at 203.2 252.095 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 203.2 254.4064 0)
@@ -14145,7 +14145,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_2") (unit 1)
+          (reference "R4K7_3") (unit 1)
         )
       )
     )
@@ -14154,7 +14154,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 276.86 259.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd100)
-    (property "Reference" "Q6" (at 290.5252 257.9116 0)
+    (property "Reference" "Q7" (at 290.5252 257.9116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 290.5252 260.223 0)
@@ -14193,7 +14193,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q6") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -14202,7 +14202,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 256.54 259.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd10c)
-    (property "Reference" "R4K7_6" (at 265.43 253.365 0)
+    (property "Reference" "R4K7_7" (at 265.43 253.365 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 265.43 255.6764 0)
@@ -14237,7 +14237,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_6") (unit 1)
+          (reference "R4K7_7") (unit 1)
         )
       )
     )
@@ -14246,7 +14246,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 316.23 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd11b)
-    (property "Reference" "R4K7_10" (at 325.12 254.635 0)
+    (property "Reference" "R4K7_11" (at 325.12 254.635 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 325.12 256.9464 0)
@@ -14281,7 +14281,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_10") (unit 1)
+          (reference "R4K7_11") (unit 1)
         )
       )
     )
@@ -14290,7 +14290,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 378.46 261.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd12a)
-    (property "Reference" "R4K7_18" (at 387.35 255.905 0)
+    (property "Reference" "R4K7_19" (at 387.35 255.905 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 387.35 258.2164 0)
@@ -14325,7 +14325,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_18") (unit 1)
+          (reference "R4K7_19") (unit 1)
         )
       )
     )
@@ -14334,7 +14334,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 351.79 294.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd13a)
-    (property "Reference" "Q12" (at 365.4552 293.4716 0)
+    (property "Reference" "Q13" (at 365.4552 293.4716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 365.4552 295.783 0)
@@ -14373,7 +14373,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q12") (unit 1)
+          (reference "Q13") (unit 1)
         )
       )
     )
@@ -14382,7 +14382,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 331.47 294.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd146)
-    (property "Reference" "R4K7_12" (at 340.36 288.925 0)
+    (property "Reference" "R4K7_13" (at 340.36 288.925 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 340.36 291.2364 0)
@@ -14417,7 +14417,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_12") (unit 1)
+          (reference "R4K7_13") (unit 1)
         )
       )
     )
@@ -14426,7 +14426,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 414.02 295.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd156)
-    (property "Reference" "Q20" (at 427.6852 294.7416 0)
+    (property "Reference" "Q21" (at 427.6852 294.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 427.6852 297.053 0)
@@ -14465,7 +14465,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q20") (unit 1)
+          (reference "Q21") (unit 1)
         )
       )
     )
@@ -14474,7 +14474,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 393.7 295.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd162)
-    (property "Reference" "R4K7_20" (at 402.59 290.195 0)
+    (property "Reference" "R4K7_21" (at 402.59 290.195 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 402.59 292.5064 0)
@@ -14509,7 +14509,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_20") (unit 1)
+          (reference "R4K7_21") (unit 1)
         )
       )
     )
@@ -14518,7 +14518,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 473.71 297.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd172)
-    (property "Reference" "Q24" (at 487.3752 296.0116 0)
+    (property "Reference" "Q25" (at 487.3752 296.0116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 487.3752 298.323 0)
@@ -14557,7 +14557,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q24") (unit 1)
+          (reference "Q25") (unit 1)
         )
       )
     )
@@ -14566,7 +14566,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 453.39 297.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd17e)
-    (property "Reference" "R4K7_24" (at 462.28 291.465 0)
+    (property "Reference" "R4K7_25" (at 462.28 291.465 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 462.28 293.7764 0)
@@ -14601,7 +14601,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_24") (unit 1)
+          (reference "R4K7_25") (unit 1)
         )
       )
     )
@@ -14610,7 +14610,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 535.94 298.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd18e)
-    (property "Reference" "Q28" (at 549.6052 297.2816 0)
+    (property "Reference" "Q29" (at 549.6052 297.2816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 549.6052 299.593 0)
@@ -14649,7 +14649,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q28") (unit 1)
+          (reference "Q29") (unit 1)
         )
       )
     )
@@ -14658,7 +14658,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 515.62 298.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd19a)
-    (property "Reference" "R4K7_28" (at 524.51 292.735 0)
+    (property "Reference" "R4K7_29" (at 524.51 292.735 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 524.51 295.0464 0)
@@ -14693,7 +14693,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_28") (unit 1)
+          (reference "R4K7_29") (unit 1)
         )
       )
     )
@@ -14702,7 +14702,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 398.78 261.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd1aa)
-    (property "Reference" "Q18" (at 412.4452 260.4516 0)
+    (property "Reference" "Q19" (at 412.4452 260.4516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 412.4452 262.763 0)
@@ -14741,7 +14741,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q18") (unit 1)
+          (reference "Q19") (unit 1)
         )
       )
     )
@@ -14750,7 +14750,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 336.55 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd1b7)
-    (property "Reference" "Q10" (at 350.2152 259.1816 0)
+    (property "Reference" "Q11" (at 350.2152 259.1816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 350.2152 261.493 0)
@@ -14789,7 +14789,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q10") (unit 1)
+          (reference "Q11") (unit 1)
         )
       )
     )
@@ -14798,7 +14798,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:SMMBT5551LT1G-SamacSys_Parts") (at 370.84 332.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd1eb)
-    (property "Reference" "Q14" (at 384.5052 331.5716 0)
+    (property "Reference" "Q15" (at 384.5052 331.5716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMMBT5551LT1G" (at 384.5052 333.883 0)
@@ -14837,7 +14837,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "Q14") (unit 1)
+          (reference "Q15") (unit 1)
         )
       )
     )
@@ -14846,7 +14846,7 @@
   (symbol (lib_id "PicBytesMicro-rescue:KTR10EZPF4220-SamacSys_Parts") (at 347.98 332.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611dd1f7)
-    (property "Reference" "R4K7_14" (at 356.87 327.025 0)
+    (property "Reference" "R4K7_15" (at 356.87 327.025 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KTR10EZPF4220" (at 356.87 329.3364 0)
@@ -14881,7 +14881,7 @@
     (instances
       (project "PicBytesMicro"
         (path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720/00000000-0000-0000-0000-00005fec722b"
-          (reference "R4K7_14") (unit 1)
+          (reference "R4K7_15") (unit 1)
         )
       )
     )

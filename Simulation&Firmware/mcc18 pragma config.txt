@@ -1,0 +1,1 @@
+mcc18 --help-config -p 18f4550

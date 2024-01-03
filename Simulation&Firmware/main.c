@@ -1,4 +1,4 @@
-/*	Making Devices 2020
+/*	Making Devices 2023
 	https://makingdevices.com
 	Rubén García Segovia
 	  Pic Bytes Micro
@@ -9,11 +9,15 @@
 #include "snake.h"
 
 // CONFIG1H
-//#pragma config FOSC = INTOSC // Oscillator Selection bits (HS oscillator, PLL enabled (HSPLL))
+//#pragma config FOSC = HSPLL_HS // Oscillator Selection bits (HS oscillator, PLL enabled (HSPLL))
+#pragma config FOSC = HS // Oscillator Selection bits (HS oscillator, PLL enabled (HSPLL))
+//#pragma config PLLSEL = PLL4X  //only for 45k50
+//#pragma config CFGPLLEN = ON   //only for 45k50
+//#pragma config CPUDIV = CLKDIV6 //only for 45k50
+//#pragma config FOSC = INTOSCIO_EC this works (Buggy)
 #pragma config FCMEN = OFF // Fail-Safe Clock Monitor Enable bit (Fail-Safe Clock Monitor disabled)
 #pragma config IESO = OFF // Internal/External Oscillator Switchover bit (Oscillator Switchover mode disabled)
 #pragma config LVP = OFF //Disable low voltage programmer so we can use RB5.
-
 /*
 Screen: 10x16
 */

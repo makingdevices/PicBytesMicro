@@ -1,4 +1,4 @@
-/*	Making Devices 2020
+/*	Making Devices 2023
 	https://makingdevices.com
 	Rubén García Segovia
 	  Pic Bytes Micro
@@ -8,8 +8,9 @@
 
 // ----------------- SNAKE GAME ----------------------- //
 int snake_length=0;
+char unique_mov=0; //his guaranties only one movement per time
 void snake_init(void){
-	int j;
+	int j;  
  	srand((unsigned) TMR0L);  //Pseudo-random seed for random generator
 	game_ram[0] = 0; //init movement of the snake
 	game_ram[60]=7;	//head x axis
@@ -112,8 +113,8 @@ void move_snake(void){
 		game_ram[60]--;
 	}
 	if(read_screen(game_ram[60],game_ram[61])==1)snake_end_game();
+	else write_screen(game_ram[60],game_ram[61],1);
 	write_screen(game_ram[62],game_ram[63],0);
-	write_screen(game_ram[60],game_ram[61],1);
 
 	stack_snake(game_ram[65],0);
 
@@ -129,23 +130,27 @@ void move_snake(void){
 	if(stack_snake(game_ram[65],2)==0b10000000){
 		game_ram[63]--;	
 	}
-
+	unique_mov = 0;
 	stack_snake(game_ram[65],1);
 }
 
 
 
 void check_movement(void){
-	if(read_button(4)==1 && (game_ram[65]!=0b00000001)){ //rigth
+	if(read_button(4)==1 && unique_mov == 0 && (game_ram[65]!=0b00000001)){ //rigth
+		unique_mov = 1;
 		game_ram[65] = 0b00000000;
 	}
-	if(read_button(3)==1 && (game_ram[65]!=0b00000000)){ //left
+	if(read_button(3)==1 && unique_mov == 0 && (game_ram[65]!=0b00000000)){ //left
+		unique_mov = 1;
 		game_ram[65] = 0b00000001;
 	}
-	if(read_button(2)==1 && (game_ram[65]!=0b00000010)){ //down
+	if(read_button(2)==1 && unique_mov == 0 && (game_ram[65]!=0b00000010)){ //down
+		unique_mov = 1;
 		game_ram[65] = 0b00000011;
 	}
-	if(read_button(1)==1 && (game_ram[65]!=0b00000011)){ //up
+	if(read_button(1)==1 && unique_mov == 0 && (game_ram[65]!=0b00000011)){ //up
+		unique_mov = 1;
 		game_ram[65] = 0b00000010;
 	}
 }

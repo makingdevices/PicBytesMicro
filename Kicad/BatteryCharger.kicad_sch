@@ -945,6 +945,7 @@
     )
   )
 
+
   (junction (at 66.04 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 05afba98-d9b4-454f-8f5c-9c1e67e35558)
   )
@@ -1536,7 +1537,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 56767a47-a290-4d07-aea4-9c707726459a)
   )
-  (text "BMS CIRCUIT:\nCharging:\n-TP4056 as a well-known charging IC, up to 500mA with a 2.1K PROG resistor.\n-We do not use NTC for the battery in order to save costs.\n\nProtection IC:\n-AP9214L-AN-HSBR-7 as main chip. It disconnects the ground of the battery from the rest of the circuit.\n-4.225V max voltage to 3.2V min voltage (protections).\n-Auto-release. \n\nBoost Converter:\n-TPS61085TDGKR as main chip. \n-Toggle Switch.\n-5V fix output voltage. 0.6A maximum output current \n\nUSB type C \n-Type C connector.\n-Only for charging"
+  (text "BMS CIRCUIT:\nCharging:\n-TP4056 as a well-known charging IC, up to 500mA with a 2.1K PROG resistor.\n-We do not use NTC for the battery in order to save costs.\n\nProtection IC:\n-AP9214L-AD-HSBR-7 as main chip. It disconnects the ground of the battery from the rest of the circuit.\n-4.325V max voltage to 2.9V min voltage (protections).\n-Auto-release. \n\nBoost Converter:\n-TPS61085TDGKR as main chip. \n-Toggle Switch.\n-5V fix output voltage. 0.6A maximum output current \n\nUSB type C \n-Type C connector.\n-Only for charging"
     (at 21.59 182.88 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 60b4aab3-0c10-4904-a614-9897652fc4b5)
@@ -2555,7 +2556,7 @@
     (property "Reference" "IC1" (at 90.17 105.029 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AP9214L-AN-HSBR-7" (at 90.17 107.3404 0)
+    (property "Value" "AP9214L-AD-HSBR-7" (at 90.17 107.3404 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "AP9214LANHSBR7" (at 99.06 109.22 0)

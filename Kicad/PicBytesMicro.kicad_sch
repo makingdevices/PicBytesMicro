@@ -6,8 +6,8 @@
 
   (title_block
     (title "PicBytes Micro - General")
-    (date "2024-01-03")
-    (rev "V1.2")
+    (date "2024-03-24")
+    (rev "V1.25")
     (company "Making Devices")
     (comment 1 "Rubén G.S.")
   )
@@ -652,6 +652,7 @@
       )
     )
   )
+
 
   (junction (at 210.82 121.92) (diameter 0) (color 0 0 0 0)
     (uuid 0f869f38-f880-4382-8e13-68599fec1566)

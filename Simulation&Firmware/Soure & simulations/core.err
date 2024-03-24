@@ -1,0 +1,25 @@
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 153 : symbol 'PORTAbits' has not been defined
+Error[1151] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 153 : struct or union object designator expected
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 154 : symbol 'PORTAbits' has not been defined
+Error[1151] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 154 : struct or union object designator expected
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 155 : symbol 'PORTAbits' has not been defined
+Error[1151] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 155 : struct or union object designator expected
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 156 : symbol 'PORTAbits' has not been defined
+Error[1151] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 156 : struct or union object designator expected
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 157 : symbol 'PORTAbits' has not been defined
+Error[1151] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 157 : struct or union object designator expected
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 158 : symbol 'PORTAbits' has not been defined
+Error[1151] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 158 : struct or union object designator expected
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 165 : symbol 'LATE' has not been defined
+Error[1101] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 165 : lvalue required
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 169 : symbol 'LATC' has not been defined
+Error[1101] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 169 : lvalue required
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 172 : symbol 'LATC' has not been defined
+Error[1101] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 172 : lvalue required
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 174 : symbol 'LATB' has not been defined
+Error[1101] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 174 : lvalue required
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 175 : symbol 'LATD' has not been defined
+Error[1101] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 175 : lvalue required
+Error[1105] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 178 : symbol 'LATCbits' has not been defined
+Error[1151] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 178 : struct or union object designator expected
+Error[1101] D:\GitHub\PicBytesMicro\Simulation&Firmware\core.c 178 : lvalue required

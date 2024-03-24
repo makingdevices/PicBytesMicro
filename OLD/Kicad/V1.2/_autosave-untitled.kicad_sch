@@ -1,0 +1,18 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c35b8f13-c2ff-4498-b8be-edb45e3b66b9)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text_box "Changelog:\nV0.1: bla bla bla\nV1.0: Bla Bla Bla\n"
+    (at 101.6 45.72 0) (size 110.49 72.39)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 741fde1d-4ca8-4230-bec0-f5d0ba33878c)
+  )
+)

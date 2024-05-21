@@ -13,7 +13,7 @@ unsigned char max_points_snake=0;
 void snake_init(void){
 	int j;  
  	srand((unsigned) TMR0L);  //Pseudo-random seed for random generator
-	snake_game_speed = 30;
+	snake_game_speed = 250;
 	game_ram[0] = 0; //init movement of the snake
 	game_ram[60]=7;	//head x axis
 	game_ram[61]=3;	//head y axis
@@ -35,7 +35,7 @@ void snake_init(void){
 void snake_end_game(void){
  	clean_screen();
 	buzzer_beep(1000);
-	game_selection= 9;
+	game_selection = 9;
 	ingame = 0;
 	if(max_points_snake>readEE(201))writeEE(201,max_points_snake);	//snake max points
 }
@@ -90,7 +90,7 @@ void move_snake(void){
 		if(((game_ram[60]+1)==game_ram[68])&&game_ram[61]==game_ram[69]){
 			game_ram[67]=0;	
 			buzzer_beep(150);
-			if(snake_game_speed>10) snake_game_speed--;
+			if(snake_game_speed>90) snake_game_speed = snake_game_speed - 5;
 			game_ram[60]++;
 			stack_snake(game_ram[65],0);
 			snake_length++;
@@ -101,7 +101,7 @@ void move_snake(void){
 		if((game_ram[60]==game_ram[68])&&(game_ram[61]+1)==game_ram[69]){
 			game_ram[67]=0;
 			buzzer_beep(150);
-			if(snake_game_speed>10) snake_game_speed--;	
+			if(snake_game_speed>90) snake_game_speed = snake_game_speed - 5;
 			game_ram[61]++;
 			stack_snake(game_ram[65],0);
 			snake_length++;
@@ -112,7 +112,7 @@ void move_snake(void){
 		if((game_ram[60]==game_ram[68])&&(game_ram[61]-1)==game_ram[69]){
 			game_ram[67]=0;	
 			buzzer_beep(150);
-			if(snake_game_speed>10) snake_game_speed--;
+			if(snake_game_speed>90) snake_game_speed = snake_game_speed - 5;
 			game_ram[61]--;
 			stack_snake(game_ram[65],0);
 			snake_length++;
@@ -123,7 +123,7 @@ void move_snake(void){
 		if(((game_ram[60]-1)==game_ram[68])&&game_ram[61]==game_ram[69]){
 			game_ram[67]=0;	
 			buzzer_beep(150);
-			if(snake_game_speed>10) snake_game_speed--;
+			if(snake_game_speed>90) snake_game_speed = snake_game_speed - 5;
 			game_ram[60]--;
 			stack_snake(game_ram[65],0);
 			snake_length++;

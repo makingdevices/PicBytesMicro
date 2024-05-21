@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Sun Mar 24 15:27:52 2024
+Linker Map File - Created Tue May 21 21:42:19 2024
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -19,40 +19,39 @@ Linker Map File - Created Sun Mar 24 15:27:52 2024
       .idata_fxd0808u.o_i    romdata   0x000010    program   0x000000
                low_vector       code   0x000018    program   0x000006
                    .cinit    romdata   0x00001e    program   0x000032
-             .code_main.o       code   0x000050    program   0x007216
-                     PROG       code   0x007266    program   0x0005f0
-          .romdata_main.o    romdata   0x007856    program   0x00019a
-               _cinit_scn       code   0x0079f0    program   0x00009e
-                   STDLIB       code   0x007a8e    program   0x00003c
-             D10KTCYXCODE       code   0x007aca    program   0x00002e
-         .code_fxd1616u.o       code   0x007af8    program   0x00002c
-              D1KTCYXCODE       code   0x007b24    program   0x000020
-                    .code       code   0x007b44    program   0x000020
-             _startup_scn       code   0x007b64    program   0x00001c
-         .code_fxd0808u.o       code   0x007b80    program   0x00001c
-    my_memory_section_2_i    romdata   0x007b9c    program   0x000072
-    my_memory_section_1_i    romdata   0x007c0e    program   0x0000d7
-          .idata_main.o_i    romdata   0x007ce5    program   0x00009c
+             .code_main.o       code   0x000050    program   0x007336
+                     PROG       code   0x007386    program   0x0005f0
+          .romdata_main.o    romdata   0x007976    program   0x00019a
+               _cinit_scn       code   0x007b10    program   0x00009e
+                   STDLIB       code   0x007bae    program   0x00003c
+             D10KTCYXCODE       code   0x007bea    program   0x00002e
+         .code_fxd1616u.o       code   0x007c18    program   0x00002c
+                    .code       code   0x007c44    program   0x000020
+             _startup_scn       code   0x007c64    program   0x00001c
+         .code_fxd0808u.o       code   0x007c80    program   0x00001c
+    my_memory_section_2_i    romdata   0x007c9c    program   0x00007c
+    my_memory_section_1_i    romdata   0x007d18    program   0x0000d7
+          .idata_main.o_i    romdata   0x007def    program   0x0000a5
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300006_main.o    romdata   0x300006    program   0x000001
                 MATH_DATA      udata   0x000000       data   0x000014
                  .tmpdata      udata   0x000014       data   0x00000a
                 DELAYDAT2      udata   0x00001e       data   0x000001
                 DELAYDAT1      udata   0x00001f       data   0x000001
-            .idata_main.o      idata   0x000060       data   0x00009c
-                SEED_DATA      idata   0x0000fc       data   0x000002
-           .idata_c018i.o      idata   0x0000fe       data   0x000000
-        .udata_fxd0808u.o      udata   0x0000fe       data   0x000000
-        .idata_fxd0808u.o      idata   0x0000fe       data   0x000000
-        .udata_fxd1616u.o      udata   0x0000fe       data   0x000000
-        .idata_fxd1616u.o      idata   0x0000fe       data   0x000000
-          .udata___init.o      udata   0x0000fe       data   0x000000
-          .idata___init.o      idata   0x0000fe       data   0x000000
+      my_memory_section_2      idata   0x000060       data   0x00007c
+           .udata_c018i.o      udata   0x0000dc       data   0x00000a
+                SEED_DATA      idata   0x0000e6       data   0x000002
+           .idata_c018i.o      idata   0x0000e8       data   0x000000
+        .udata_fxd0808u.o      udata   0x0000e8       data   0x000000
+        .idata_fxd0808u.o      idata   0x0000e8       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000e8       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000e8       data   0x000000
+          .udata___init.o      udata   0x0000e8       data   0x000000
+          .idata___init.o      idata   0x0000e8       data   0x000000
       my_memory_section_1      idata   0x000100       data   0x0000d7
-            .udata_main.o      udata   0x000200       data   0x00007a
-      my_memory_section_2      idata   0x00027a       data   0x000072
-           .udata_c018i.o      udata   0x0002ec       data   0x00000a
+            .idata_main.o      idata   0x000200       data   0x0000a5
                    .stack      udata   0x000300       data   0x000100
+            .udata_main.o      udata   0x000400       data   0x00007a
             SFR_UNBANKED0      udata   0x000f62       data   0x00009e
 
 
@@ -61,211 +60,226 @@ Linker Map File - Created Sun Mar 24 15:27:52 2024
                                Start         End      
                            ---------   ---------      
                             0x000000    0x00000f      
-                            0x000018    0x007d80      
+                            0x000018    0x007e93      
                             0x300001    0x300001      
                             0x300006    0x300006      
-            32123 out of 33048 program addresses used, program memory utilization is 97%
+            32398 out of 33048 program addresses used, program memory utilization is 98%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                 ADC_Init   0x000230    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                 ADC_Read   0x000240    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                   D10K_1   0x007ad6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x007ae2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x007ad4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                   D1616S   0x007560    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x00756e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x00756a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x007580    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                    D1K_1   0x007b30    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                     D1Kx   0x007b2e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                  DA1616S   0x007550    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-             Delay10KTCYx   0x007aca    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-              Delay1KTCYx   0x007b24    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                 FLO1632S   0x00726a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                 FLO1632U   0x007266    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    FPA32   0x007292    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                    FPD32   0x0073be    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    FPM32   0x007464    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                    FPS32   0x007290    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 FXD0808U   0x007b80    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
-                 FXD1616S   0x00753e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXD1616U   0x007af8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                 FXM1616S   0x00758a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                 FXM1616U   0x00781a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
-                  INT3208   0x0075e4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  TAEQB32   0x007632    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\eqFP.asm
-                  TAGTB32   0x007640    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
-                  TALTB32   0x007652    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
-               TSIGN1616A   0x0075d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-       _D10KTCYXCODE_0010   0x007ada    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x007ae6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-        _D1KTCYXCODE_0010   0x007b34    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x007b3a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-              __FpCompare   0x007664    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 __FpExit   0x00771a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpPack   0x007746    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-            __FpReturnNaN   0x00770e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x007720    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x007738    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x007726    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x007740    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x00771c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x007734    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpReturnW   0x00779e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpUnPackA   0x0077be    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x0077ee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 ADC_Init   0x000230    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                 ADC_Read   0x000240    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                   D10K_1   0x007bf6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x007c02    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x007bf4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D1616S   0x007680    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x00768e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x00768a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0076a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x007670    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+             Delay10KTCYx   0x007bea    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                 FLO1632S   0x00738a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632U   0x007386    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPA32   0x0073b2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                    FPD32   0x0074de    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    FPM32   0x007584    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                    FPS32   0x0073b0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 FXD0808U   0x007c80    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
+                 FXD1616S   0x00765e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x007c18    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 FXM1616S   0x0076aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                 FXM1616U   0x00793a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                  INT3208   0x007704    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  TAEQB32   0x007752    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\eqFP.asm
+                  TAGTB32   0x007760    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
+                  TALTB32   0x007772    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
+               TSIGN1616A   0x0076f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+       _D10KTCYXCODE_0010   0x007bfa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x007c06    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+              __FpCompare   0x007784    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 __FpExit   0x00783a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x007866    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x00782e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x007840    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x007858    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x007846    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x007860    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x00783c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x007854    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x0078be    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0078de    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x00790e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+         ___else_lbl00593   0x00726e    program     static                          
+           ___if_lbl00081   0x000ccc    program     static                          
+           ___if_lbl00592   0x00727c    program     static                          
+           ___if_lbl00594   0x00728e    program     static                          
+           ___if_lbl00595   0x0072ea    program     static                          
+           ___if_lbl00596   0x0072fe    program     static                          
+           ___if_lbl00597   0x00730e    program     static                          
+           ___if_lbl00598   0x00731c    program     static                          
+       ___return_lbl00000   0x007c9a    program     static                          
+       ___return_lbl00000   0x007c42    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x007b9a    program     static                          
-       ___return_lbl00000   0x007b22    program     static                          
-       ___return_lbl00001   0x007b7e    program     static                          
-       ___return_lbl00002   0x007a8c    program     static                          
-       ___return_lbl00573   0x00001c    program     static                          
-       ___return_lbl00574   0x00000c    program     static                          
-               __config_0   0x300001    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-               __config_1   0x300006    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
+       ___return_lbl00001   0x007c7e    program     static                          
+       ___return_lbl00002   0x007bac    program     static                          
+       ___return_lbl00078   0x000cce    program     static                          
+       ___return_lbl00576   0x00001c    program     static                          
+       ___return_lbl00577   0x00000c    program     static                          
+       ___return_lbl00591   0x007384    program     static                          
+        ___while_lbl00079   0x000c6a    program     static                          
+        ___while_lbl00080   0x000cce    program     static                          
+        ___while_lbl00599   0x00731c    program     static                          
+        ___while_lbl00600   0x00733e    program     static                          
+        ___while_lbl00601   0x00733e    program     static                          
+        ___while_lbl00602   0x007360    program     static                          
+        ___while_lbl00603   0x007360    program     static                          
+        ___while_lbl00604   0x007382    program     static                          
+               __config_0   0x300001    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+               __config_1   0x300006    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                    __init   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-             __tmplbl_209   0x00417c    program     static                          
-             __tmplbl_258   0x001284    program     static                          
-            __zero_memory   0x007b44    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                _do_cinit   0x0079f0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+             __tmplbl_204   0x000c8a    program     static                          
+             __tmplbl_212   0x00424e    program     static                          
+             __tmplbl_261   0x0012f4    program     static                          
+            __zero_memory   0x007c44    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                _do_cinit   0x007b10    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                _high_isr   0x0070e4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                 _low_isr   0x006faa    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                 _startup   0x007b64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-        arkanoid_end_game   0x004e74    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-            arkanoid_init   0x004d16    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-        arkanoid_sel_init   0x005c6a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-              buzzer_beep   0x00032e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-       change_menu_screen   0x0011f6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             change_sound   0x000152    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-            change_splash   0x000186    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-          check_collision   0x004ea4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-  check_end_game_arkanoid   0x00553a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-   check_end_lvl_arkanoid   0x00556a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-           check_movement   0x004922    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-  check_movement_arkanoid   0x005828    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-    check_movement_tetris   0x006882    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-   check_tetris_collision   0x005fd4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-        check_tetris_line   0x00652e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-            clean_buttons   0x000328    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             clean_screen   0x000770    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                compare_l   0x007b5a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                copy_loop   0x007a62    program     static                          
-            copy_one_byte   0x007a68    program     static                          
-             create_level   0x004b84    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-                     done   0x007a8c    program     static                          
-             done_copying   0x007a76    program     static                          
-          end_tetris_game   0x0064e0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-                  endloop   0x007b1e    program     static                          
-                  endloop   0x007b96    program     static                          
-               food_snake   0x004376    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-           high_interrupt   0x000008    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-          initiate_EEPROM   0x0000a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-                 jANotInf   0x0073dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jANotInf   0x0072ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jANotInf   0x007482    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 jANotNeg   0x00734e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jANotZero   0x0073f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-              jAandWsetup   0x00731e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                  jAisNeg   0x0076e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 jAltBexp   0x00730c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jBANotInf   0x0072b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jBNotInf   0x0072c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-              jBothFinite   0x007490    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x007682    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-             jBothNotZero   0x00749c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-            jDifOrPosSign   0x0072dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                      jEQ   0x00769e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jExch   0x0076aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jExit   0x007630    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                   jExpEQ   0x0076f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jFinal   0x0076d4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-               jFinalSign   0x0073b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jHaveZero   0x007498    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jI2F16Beg   0x00727a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    jLoop   0x007418    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jLoop   0x007618    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                jLoopExit   0x007626    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                     jMax   0x0075f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x0075fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jMaxPos   0x0075f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                      jNE   0x0076a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jNext   0x00743e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jNoAdjust   0x00743c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                  jNoExch   0x0076ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-             jNotBothZero   0x0072e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                  jNotInf   0x007608    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jPkLoop   0x007754    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkRoundDone   0x00779e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jPkRoundIt   0x007786    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkShiftDone   0x007770    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x00772a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                  jRotate   0x0076fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jShift   0x0076e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-               jShiftDone   0x007376    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-               jShiftLoop   0x007368    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jSignDone   0x0073a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-              jSignedZero   0x0073e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jSignsEQ   0x007686    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jUnpkA1   0x0077c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x0077e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x0077d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x0077f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x007810    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x007806    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x0077ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jWNotNeg   0x007362    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                    jZero   0x007604    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-               jZero1and2   0x00772e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                     loop   0x007b02    program     static                          
-                     loop   0x007b74    program     static                          
-                     loop   0x007b88    program     static                          
-                   loop_h   0x007b52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_l   0x007b5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-           low_batt_alert   0x0041a8    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-            low_interrupt   0x000018    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                 lvlbrick   0x007856    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid_lvl.h
-                     main   0x0070fa    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                     menu   0x001236    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                move_ball   0x0055c4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-               move_snake   0x00468e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-          move_tetrominoe   0x0066ee    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-           new_tetrominoe   0x0066ae    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-             print_screen   0x0003ae    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             print_sprite   0x0007e8    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                     rand   0x007a9c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-                   readEE   0x000050    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-              read_button   0x0002e6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-              read_screen   0x000498    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-            remove_sprite   0x000aa0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-           restore_EEPROM   0x0001ba    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-           snake_end_game   0x00432a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-               snake_init   0x004292    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-           snake_sel_init   0x0049a4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-              splash_init   0x000c86    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                    srand   0x007a8e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-              stack_snake   0x004444    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-                     test   0x007a0a    program     static                          
-              tetris_init   0x005f74    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-          tetris_sel_init   0x006dc8    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-             timer0_start   0x000c60    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-           update_buttons   0x000364    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             wait_buttons   0x0011b0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                  writeEE   0x000070    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-             write_button   0x0002a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             write_screen   0x0005a6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-               zero_block   0x007b52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                _high_isr   0x0071f0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                 _low_isr   0x007084    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                 _startup   0x007c64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+        arkanoid_end_game   0x004f4a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+            arkanoid_init   0x004de2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+        arkanoid_sel_init   0x005d40    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+              buzzer_beep   0x00032e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+       change_menu_screen   0x001262    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             change_sound   0x000152    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+            change_splash   0x000186    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+          check_collision   0x004f7a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+  check_end_game_arkanoid   0x005610    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+   check_end_lvl_arkanoid   0x005640    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+           check_movement   0x0049ee    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+  check_movement_arkanoid   0x0058fe    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+    check_movement_tetris   0x00695c    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+   check_tetris_collision   0x0060b0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+        check_tetris_line   0x00660a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+            clean_buttons   0x000328    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             clean_screen   0x00074e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                compare_l   0x007c5a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                copy_loop   0x007b82    program     static                          
+            copy_one_byte   0x007b88    program     static                          
+             create_level   0x004c50    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+             delay_timer1   0x000c5a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                     done   0x007bac    program     static                          
+             done_copying   0x007b96    program     static                          
+          end_tetris_game   0x0065bc    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+                  endloop   0x007c96    program     static                          
+                  endloop   0x007c3e    program     static                          
+               food_snake   0x00444a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+           high_interrupt   0x000008    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+          initiate_EEPROM   0x0000a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+                 jANotInf   0x0073da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jANotInf   0x0075a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 jANotInf   0x0074fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jANotNeg   0x00746e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jANotZero   0x007510    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+              jAandWsetup   0x00743e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                  jAisNeg   0x007800    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 jAltBexp   0x00742c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jBANotInf   0x0073d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jBNotInf   0x0073e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+              jBothFinite   0x0075b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0077a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+             jBothNotZero   0x0075bc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+            jDifOrPosSign   0x0073fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                      jEQ   0x0077be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExch   0x0077ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExit   0x007750    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                   jExpEQ   0x007810    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jFinal   0x0077f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+               jFinalSign   0x0074d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jHaveZero   0x0075b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jI2F16Beg   0x00739a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    jLoop   0x007738    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                    jLoop   0x007538    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jLoopExit   0x007746    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                     jMax   0x007714    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x00771e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jMaxPos   0x007718    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                      jNE   0x0077c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jNext   0x00755e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jNoAdjust   0x00755c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                  jNoExch   0x0077ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+             jNotBothZero   0x007400    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                  jNotInf   0x007728    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jPkLoop   0x007874    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x0078be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0078a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x007890    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00784a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jRotate   0x00781c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jShift   0x007806    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+               jShiftDone   0x007496    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+               jShiftLoop   0x007488    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jSignDone   0x0074c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+              jSignedZero   0x007506    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jSignsEQ   0x0077a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jUnpkA1   0x0078e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x007900    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0078f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x007918    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x007930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x007926    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x00790a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jWNotNeg   0x007482    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                    jZero   0x007724    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+               jZero1and2   0x00784e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                     loop   0x007c74    program     static                          
+                     loop   0x007c22    program     static                          
+                     loop   0x007c88    program     static                          
+                   loop_h   0x007c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x007c5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+           low_batt_alert   0x00427a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+            low_interrupt   0x000018    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                 lvlbrick   0x007976    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid_lvl.h
+                     main   0x007206    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                     menu   0x0012a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                move_ball   0x00569a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+               move_snake   0x004762    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+          move_tetrominoe   0x0067c8    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+           new_tetrominoe   0x006788    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+             print_screen   0x0003ae    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             print_sprite   0x0007c6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                     rand   0x007bbc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                   readEE   0x000050    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+              read_button   0x0002e6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+              read_screen   0x000476    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+            remove_sprite   0x000a7e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+           restore_EEPROM   0x0001ba    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+           snake_end_game   0x0043fe    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+               snake_init   0x004364    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+           snake_sel_init   0x004a70    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+              splash_init   0x000ce2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                    srand   0x007bae    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+              stack_snake   0x004518    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+                     test   0x007b2a    program     static                          
+              tetris_init   0x00604a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+          tetris_sel_init   0x006ea2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+             timer1_start   0x000c3e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+           update_buttons   0x000364    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             wait_buttons   0x00121c    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                  writeEE   0x000070    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+             write_button   0x0002a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             write_screen   0x000584    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+               zero_block   0x007c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                ADC_digit   0x000278       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
+                ADC_digit   0x000478       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                     ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
@@ -420,7 +434,7 @@ Linker Map File - Created Sun Mar 24 15:27:52 2024
                STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     Seed   0x0000fc       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                     Seed   0x0000e6       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
                     T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
@@ -539,76 +553,80 @@ Linker Map File - Created Sun Mar 24 15:27:52 2024
                  __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                  __tmp_0   0x000014       data     static D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-             actual_level   0x0002e2       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-             arkanoid_bar   0x0002d9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-      arkanoid_game_speed   0x000060       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-              bat_voltage   0x000274       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                buttonmap   0x0002c0       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-         buzer_beep_timer   0x0002c5       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-            buzzer_enable   0x000063       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                curr_byte   0x0002ef       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x0002f1       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x0002f3       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-           deleted_bricks   0x0002e3       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-                     game   0x0002eb       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                 game_ram   0x00027a       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-           game_selection   0x0002c3       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                   ingame   0x0002c1       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-        kicks_tetromino_I   0x000232       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris_data.h
-  kicks_tetromino_general   0x000200       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris_data.h
-                 letter_A   0x00006b       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-           letter_A_small   0x000070       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_B   0x000075       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_C   0x00007a       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_D   0x00007f       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_E   0x000084       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_F   0x000089       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_G   0x00008e       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_H   0x000093       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_I   0x000098       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_K   0x00009d       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_L   0x0000a2       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_M   0x0000a7       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_N   0x0000ac       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_O   0x0000b1       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_P   0x0000b6       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-           letter_P_small   0x0000bb       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_R   0x0000c0       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_S   0x0000c5       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-           letter_S_small   0x0000ca       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_T   0x0000cf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_U   0x0000d4       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_V   0x0000d9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_W   0x0000de       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-             letter_blank   0x000066       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-             letter_cross   0x0000f7       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-               letter_int   0x0000ed       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-              letter_left   0x0000e8       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-            letter_number   0x000100       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-             letter_right   0x0000e3       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-              letter_tick   0x0000f2       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 lvlspeed   0x0002cf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid_lvl.h
-           max_points_lvl   0x0002e9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-         max_points_snake   0x0002ce       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-               pos_x_ball   0x00026c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-               pos_y_ball   0x000270       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-                     prom   0x0002ec       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                screenmap   0x0001bf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-          screenmap_index   0x0001be       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-         snake_game_speed   0x000061       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-             snake_length   0x0002cb       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-             speed_ball_x   0x000264       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-             speed_ball_y   0x000268       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-                speed_bar   0x0002de       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-               speed_menu   0x0002c9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-           splash_enabled   0x000064       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                    state   0x0002ea       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-         tetris_block_ram   0x0002e4       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-        tetris_game_speed   0x000062       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-            tetris_pieces   0x000132       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris_data.h
-               unique_mov   0x0002cd       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-         voltage_detector   0x000065       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
+                  __tmp_0   0x000014       data     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+             actual_level   0x0000d3       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+             arkanoid_bar   0x0000ca       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+      arkanoid_game_speed   0x000200       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+              bat_voltage   0x000474       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                buttonmap   0x0000a6       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+         buzer_beep_timer   0x0000ab       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+            buzzer_enable   0x000206       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                curr_byte   0x0000df       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0000e1       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0000e3       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               deep_sleep   0x00020c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+           deleted_bricks   0x0000d4       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+                     game   0x000209       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                 game_ram   0x000060       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+           game_selection   0x0000a9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                   ingame   0x0000a7       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+        kicks_tetromino_I   0x000432       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris_data.h
+  kicks_tetromino_general   0x000400       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris_data.h
+                 letter_A   0x000214       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+           letter_A_small   0x000219       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_B   0x00021e       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_C   0x000223       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_D   0x000228       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_E   0x00022d       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_F   0x000232       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_G   0x000237       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_H   0x00023c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_I   0x000241       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_K   0x000246       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_L   0x00024b       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_M   0x000250       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_N   0x000255       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_O   0x00025a       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_P   0x00025f       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+           letter_P_small   0x000264       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_R   0x000269       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_S   0x00026e       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+           letter_S_small   0x000273       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_T   0x000278       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_U   0x00027d       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_V   0x000282       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_W   0x000287       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+             letter_blank   0x00020f       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+             letter_cross   0x0002a0       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+               letter_int   0x000296       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+              letter_left   0x000291       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+            letter_number   0x000100       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+             letter_right   0x00028c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+              letter_tick   0x00029b       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 lvlspeed   0x0000b6       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid_lvl.h
+           max_points_lvl   0x0000da       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+         max_points_snake   0x0000b5       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+               pos_x_ball   0x00046c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+               pos_y_ball   0x000470       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+                     prom   0x0000dc       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                screenmap   0x0001bf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+          screenmap_index   0x0001be       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+ sleep_counter_multiplier   0x00020e       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+               sleep_time   0x00020a       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+         snake_game_speed   0x000202       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+             snake_length   0x0000b2       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+             speed_ball_x   0x000464       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+             speed_ball_y   0x000468       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+                speed_bar   0x0000cf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+               speed_menu   0x0000af       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+           splash_enabled   0x000207       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                    state   0x0000db       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+         tetris_block_ram   0x0000d5       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+        tetris_game_speed   0x000204       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+            tetris_pieces   0x000132       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris_data.h
+           timer1_counter   0x0000b1       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+               unique_mov   0x0000b4       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+         voltage_detector   0x000208       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
 
 
 
@@ -618,200 +636,215 @@ Linker Map File - Created Sun Mar 24 15:27:52 2024
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
                    __init   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-           high_interrupt   0x000008    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-       ___return_lbl00574   0x00000c    program     static                          
-            low_interrupt   0x000018    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-       ___return_lbl00573   0x00001c    program     static                          
-                   readEE   0x000050    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-                  writeEE   0x000070    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-          initiate_EEPROM   0x0000a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-             change_sound   0x000152    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-            change_splash   0x000186    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-           restore_EEPROM   0x0001ba    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\EEPROM.h
-                 ADC_Init   0x000230    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                 ADC_Read   0x000240    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             write_button   0x0002a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-              read_button   0x0002e6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-            clean_buttons   0x000328    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-              buzzer_beep   0x00032e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-           update_buttons   0x000364    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             print_screen   0x0003ae    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-              read_screen   0x000498    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             write_screen   0x0005a6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             clean_screen   0x000770    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             print_sprite   0x0007e8    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-            remove_sprite   0x000aa0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             timer0_start   0x000c60    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-              splash_init   0x000c86    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             wait_buttons   0x0011b0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-       change_menu_screen   0x0011f6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                     menu   0x001236    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             __tmplbl_258   0x001284    program     static                          
-             __tmplbl_209   0x00417c    program     static                          
-           low_batt_alert   0x0041a8    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-               snake_init   0x004292    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-           snake_end_game   0x00432a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-               food_snake   0x004376    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-              stack_snake   0x004444    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-               move_snake   0x00468e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-           check_movement   0x004922    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-           snake_sel_init   0x0049a4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-             create_level   0x004b84    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-            arkanoid_init   0x004d16    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-        arkanoid_end_game   0x004e74    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-          check_collision   0x004ea4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-  check_end_game_arkanoid   0x00553a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-   check_end_lvl_arkanoid   0x00556a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-                move_ball   0x0055c4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-  check_movement_arkanoid   0x005828    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-        arkanoid_sel_init   0x005c6a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-              tetris_init   0x005f74    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-   check_tetris_collision   0x005fd4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-          end_tetris_game   0x0064e0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-        check_tetris_line   0x00652e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-           new_tetrominoe   0x0066ae    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-          move_tetrominoe   0x0066ee    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-    check_movement_tetris   0x006882    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-          tetris_sel_init   0x006dc8    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-                 _low_isr   0x006faa    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                _high_isr   0x0070e4    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                     main   0x0070fa    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                 FLO1632U   0x007266    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                 FLO1632S   0x00726a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                jI2F16Beg   0x00727a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    FPS32   0x007290    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                    FPA32   0x007292    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jBANotInf   0x0072b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jANotInf   0x0072ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jBNotInf   0x0072c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-            jDifOrPosSign   0x0072dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-             jNotBothZero   0x0072e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jAltBexp   0x00730c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-              jAandWsetup   0x00731e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jANotNeg   0x00734e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jWNotNeg   0x007362    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-               jShiftLoop   0x007368    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-               jShiftDone   0x007376    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jSignDone   0x0073a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-               jFinalSign   0x0073b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                    FPD32   0x0073be    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jANotInf   0x0073dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-              jSignedZero   0x0073e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jANotZero   0x0073f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jLoop   0x007418    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jNoAdjust   0x00743c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jNext   0x00743e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    FPM32   0x007464    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 jANotInf   0x007482    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-              jBothFinite   0x007490    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jHaveZero   0x007498    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x00749c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 FXD1616S   0x00753e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x007550    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                   D1616S   0x007560    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x00756a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x00756e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x007580    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXM1616S   0x00758a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x0075d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                  INT3208   0x0075e4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                     jMax   0x0075f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jMaxPos   0x0075f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x0075fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                    jZero   0x007604    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jNotInf   0x007608    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                    jLoop   0x007618    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                jLoopExit   0x007626    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                    jExit   0x007630    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  TAEQB32   0x007632    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\eqFP.asm
-                  TAGTB32   0x007640    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
-                  TALTB32   0x007652    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
-              __FpCompare   0x007664    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-             jBothNotZero   0x007682    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 jSignsEQ   0x007686    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                      jEQ   0x00769e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                      jNE   0x0076a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jExch   0x0076aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jNoExch   0x0076ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jFinal   0x0076d4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jAisNeg   0x0076e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jShift   0x0076e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jExpEQ   0x0076f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jRotate   0x0076fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-            __FpReturnNaN   0x00770e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpExit   0x00771a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x00771c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x007720    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x007726    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x00772a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jZero1and2   0x00772e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x007734    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x007738    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x007740    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpPack   0x007746    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                  jPkLoop   0x007754    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkShiftDone   0x007770    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jPkRoundIt   0x007786    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkRoundDone   0x00779e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpReturnW   0x00779e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpUnPackA   0x0077be    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA1   0x0077c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x0077d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x0077e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x0077ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x0077ee    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x0077f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x007806    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x007810    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 FXM1616U   0x00781a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
-                 lvlbrick   0x007856    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid_lvl.h
-                _do_cinit   0x0079f0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x007a0a    program     static                          
-                copy_loop   0x007a62    program     static                          
-            copy_one_byte   0x007a68    program     static                          
-             done_copying   0x007a76    program     static                          
-       ___return_lbl00002   0x007a8c    program     static                          
-                     done   0x007a8c    program     static                          
-                    srand   0x007a8e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-                     rand   0x007a9c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-             Delay10KTCYx   0x007aca    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x007ad4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x007ad6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x007ada    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x007ae2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x007ae6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                 FXD1616U   0x007af8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                     loop   0x007b02    program     static                          
-                  endloop   0x007b1e    program     static                          
-       ___return_lbl00000   0x007b22    program     static                          
-              Delay1KTCYx   0x007b24    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                     D1Kx   0x007b2e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                    D1K_1   0x007b30    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0010   0x007b34    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x007b3a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-            __zero_memory   0x007b44    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-               zero_block   0x007b52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_h   0x007b52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                compare_l   0x007b5a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_l   0x007b5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 _startup   0x007b64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x007b74    program     static                          
-       ___return_lbl00001   0x007b7e    program     static                          
-                 FXD0808U   0x007b80    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
-                     loop   0x007b88    program     static                          
-                  endloop   0x007b96    program     static                          
-       ___return_lbl00000   0x007b9a    program     static                          
-               __config_0   0x300001    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-               __config_1   0x300006    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
+           high_interrupt   0x000008    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+       ___return_lbl00577   0x00000c    program     static                          
+            low_interrupt   0x000018    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+       ___return_lbl00576   0x00001c    program     static                          
+                   readEE   0x000050    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+                  writeEE   0x000070    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+          initiate_EEPROM   0x0000a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+             change_sound   0x000152    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+            change_splash   0x000186    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+           restore_EEPROM   0x0001ba    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
+                 ADC_Init   0x000230    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                 ADC_Read   0x000240    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             write_button   0x0002a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+              read_button   0x0002e6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+            clean_buttons   0x000328    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+              buzzer_beep   0x00032e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+           update_buttons   0x000364    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             print_screen   0x0003ae    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+              read_screen   0x000476    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             write_screen   0x000584    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             clean_screen   0x00074e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             print_sprite   0x0007c6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+            remove_sprite   0x000a7e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             timer1_start   0x000c3e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             delay_timer1   0x000c5a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+        ___while_lbl00079   0x000c6a    program     static                          
+             __tmplbl_204   0x000c8a    program     static                          
+           ___if_lbl00081   0x000ccc    program     static                          
+        ___while_lbl00080   0x000cce    program     static                          
+       ___return_lbl00078   0x000cce    program     static                          
+              splash_init   0x000ce2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             wait_buttons   0x00121c    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+       change_menu_screen   0x001262    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                     menu   0x0012a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             __tmplbl_261   0x0012f4    program     static                          
+             __tmplbl_212   0x00424e    program     static                          
+           low_batt_alert   0x00427a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+               snake_init   0x004364    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+           snake_end_game   0x0043fe    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+               food_snake   0x00444a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+              stack_snake   0x004518    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+               move_snake   0x004762    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+           check_movement   0x0049ee    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+           snake_sel_init   0x004a70    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+             create_level   0x004c50    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+            arkanoid_init   0x004de2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+        arkanoid_end_game   0x004f4a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+          check_collision   0x004f7a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+  check_end_game_arkanoid   0x005610    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+   check_end_lvl_arkanoid   0x005640    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+                move_ball   0x00569a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+  check_movement_arkanoid   0x0058fe    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+        arkanoid_sel_init   0x005d40    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+              tetris_init   0x00604a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+   check_tetris_collision   0x0060b0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+          end_tetris_game   0x0065bc    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+        check_tetris_line   0x00660a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+           new_tetrominoe   0x006788    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+          move_tetrominoe   0x0067c8    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+    check_movement_tetris   0x00695c    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+          tetris_sel_init   0x006ea2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+                 _low_isr   0x007084    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                _high_isr   0x0071f0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                     main   0x007206    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+         ___else_lbl00593   0x00726e    program     static                          
+           ___if_lbl00592   0x00727c    program     static                          
+           ___if_lbl00594   0x00728e    program     static                          
+           ___if_lbl00595   0x0072ea    program     static                          
+           ___if_lbl00596   0x0072fe    program     static                          
+           ___if_lbl00597   0x00730e    program     static                          
+        ___while_lbl00599   0x00731c    program     static                          
+           ___if_lbl00598   0x00731c    program     static                          
+        ___while_lbl00600   0x00733e    program     static                          
+        ___while_lbl00601   0x00733e    program     static                          
+        ___while_lbl00603   0x007360    program     static                          
+        ___while_lbl00602   0x007360    program     static                          
+        ___while_lbl00604   0x007382    program     static                          
+       ___return_lbl00591   0x007384    program     static                          
+                 FLO1632U   0x007386    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632S   0x00738a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                jI2F16Beg   0x00739a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPS32   0x0073b0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                    FPA32   0x0073b2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jBANotInf   0x0073d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jANotInf   0x0073da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jBNotInf   0x0073e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+            jDifOrPosSign   0x0073fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+             jNotBothZero   0x007400    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jAltBexp   0x00742c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+              jAandWsetup   0x00743e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jANotNeg   0x00746e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jWNotNeg   0x007482    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+               jShiftLoop   0x007488    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+               jShiftDone   0x007496    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jSignDone   0x0074c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+               jFinalSign   0x0074d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                    FPD32   0x0074de    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jANotInf   0x0074fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+              jSignedZero   0x007506    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jANotZero   0x007510    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jLoop   0x007538    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jNoAdjust   0x00755c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jNext   0x00755e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    FPM32   0x007584    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 jANotInf   0x0075a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+              jBothFinite   0x0075b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jHaveZero   0x0075b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0075bc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 FXD1616S   0x00765e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x007670    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D1616S   0x007680    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x00768a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x00768e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0076a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXM1616S   0x0076aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x0076f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                  INT3208   0x007704    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                     jMax   0x007714    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jMaxPos   0x007718    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x00771e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                    jZero   0x007724    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jNotInf   0x007728    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                    jLoop   0x007738    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                jLoopExit   0x007746    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                    jExit   0x007750    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  TAEQB32   0x007752    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\eqFP.asm
+                  TAGTB32   0x007760    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
+                  TALTB32   0x007772    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
+              __FpCompare   0x007784    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+             jBothNotZero   0x0077a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 jSignsEQ   0x0077a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jEQ   0x0077be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jNE   0x0077c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExch   0x0077ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jNoExch   0x0077ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jFinal   0x0077f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jAisNeg   0x007800    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jShift   0x007806    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jExpEQ   0x007810    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jRotate   0x00781c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+            __FpReturnNaN   0x00782e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpExit   0x00783a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x00783c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x007840    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x007846    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00784a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jZero1and2   0x00784e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x007854    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x007858    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x007860    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x007866    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jPkLoop   0x007874    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x007890    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0078a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x0078be    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x0078be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0078de    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x0078e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x0078f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x007900    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x00790a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x00790e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x007918    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x007926    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x007930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 FXM1616U   0x00793a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                 lvlbrick   0x007976    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid_lvl.h
+                _do_cinit   0x007b10    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x007b2a    program     static                          
+                copy_loop   0x007b82    program     static                          
+            copy_one_byte   0x007b88    program     static                          
+             done_copying   0x007b96    program     static                          
+                     done   0x007bac    program     static                          
+       ___return_lbl00002   0x007bac    program     static                          
+                    srand   0x007bae    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                     rand   0x007bbc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+             Delay10KTCYx   0x007bea    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x007bf4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x007bf6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x007bfa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x007c02    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x007c06    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                 FXD1616U   0x007c18    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x007c22    program     static                          
+                  endloop   0x007c3e    program     static                          
+       ___return_lbl00000   0x007c42    program     static                          
+            __zero_memory   0x007c44    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               zero_block   0x007c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_h   0x007c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                compare_l   0x007c5a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x007c5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 _startup   0x007c64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x007c74    program     static                          
+       ___return_lbl00001   0x007c7e    program     static                          
+                 FXD0808U   0x007c80    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
+                     loop   0x007c88    program     static                          
+                  endloop   0x007c96    program     static                          
+       ___return_lbl00000   0x007c9a    program     static                          
+               __config_0   0x300001    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+               __config_1   0x300006    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                      SIGN   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
-            __FPFLAGSbits   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
                 __FPFLAGS   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
                  __AARGB7   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB3   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB6   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB2   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
-                 __AARGB5   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB1   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB0   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB4   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB3   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
@@ -827,238 +860,242 @@ Linker Map File - Created Sun Mar 24 15:27:52 2024
                  __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                    __TEMP   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                  __tmp_0   0x000014       data     static D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
+                 __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
+                  __tmp_0   0x000014       data     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
             DelayCounter2   0x00001e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
             DelayCounter1   0x00001f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
-      arkanoid_game_speed   0x000060       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-         snake_game_speed   0x000061       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-        tetris_game_speed   0x000062       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-            buzzer_enable   0x000063       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-           splash_enabled   0x000064       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-         voltage_detector   0x000065       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-             letter_blank   0x000066       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_A   0x00006b       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-           letter_A_small   0x000070       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_B   0x000075       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_C   0x00007a       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_D   0x00007f       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_E   0x000084       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_F   0x000089       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_G   0x00008e       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_H   0x000093       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_I   0x000098       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_K   0x00009d       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_L   0x0000a2       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_M   0x0000a7       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_N   0x0000ac       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_O   0x0000b1       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_P   0x0000b6       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-           letter_P_small   0x0000bb       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_R   0x0000c0       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_S   0x0000c5       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-           letter_S_small   0x0000ca       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_T   0x0000cf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_U   0x0000d4       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_V   0x0000d9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                 letter_W   0x0000de       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-             letter_right   0x0000e3       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-              letter_left   0x0000e8       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-               letter_int   0x0000ed       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-              letter_tick   0x0000f2       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-             letter_cross   0x0000f7       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-                     Seed   0x0000fc       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-            letter_number   0x000100       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\graphics.h
-            tetris_pieces   0x000132       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris_data.h
-          screenmap_index   0x0001be       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                screenmap   0x0001bf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-  kicks_tetromino_general   0x000200       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris_data.h
-        kicks_tetromino_I   0x000232       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris_data.h
-             speed_ball_x   0x000264       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-             speed_ball_y   0x000268       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-               pos_x_ball   0x00026c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-               pos_y_ball   0x000270       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-              bat_voltage   0x000274       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                ADC_digit   0x000278       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                 game_ram   0x00027a       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                buttonmap   0x0002c0       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-                   ingame   0x0002c1       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-           game_selection   0x0002c3       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-         buzer_beep_timer   0x0002c5       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-               speed_menu   0x0002c9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\core.h
-             snake_length   0x0002cb       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-               unique_mov   0x0002cd       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-         max_points_snake   0x0002ce       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\snake.h
-                 lvlspeed   0x0002cf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid_lvl.h
-             arkanoid_bar   0x0002d9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-                speed_bar   0x0002de       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-             actual_level   0x0002e2       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-           deleted_bricks   0x0002e3       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\arkanoid.h
-         tetris_block_ram   0x0002e4       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-           max_points_lvl   0x0002e9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\tetris.h
-                    state   0x0002ea       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                     game   0x0002eb       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\main.c
-                     prom   0x0002ec       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                curr_byte   0x0002ef       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x0002f1       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x0002f3       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 game_ram   0x000060       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                buttonmap   0x0000a6       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                   ingame   0x0000a7       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+           game_selection   0x0000a9       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+         buzer_beep_timer   0x0000ab       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+               speed_menu   0x0000af       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+           timer1_counter   0x0000b1       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+             snake_length   0x0000b2       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+               unique_mov   0x0000b4       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+         max_points_snake   0x0000b5       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
+                 lvlspeed   0x0000b6       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid_lvl.h
+             arkanoid_bar   0x0000ca       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+                speed_bar   0x0000cf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+             actual_level   0x0000d3       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+           deleted_bricks   0x0000d4       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+         tetris_block_ram   0x0000d5       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+           max_points_lvl   0x0000da       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
+                    state   0x0000db       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                     prom   0x0000dc       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x0000df       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0000e1       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0000e3       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     Seed   0x0000e6       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+            letter_number   0x000100       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+            tetris_pieces   0x000132       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris_data.h
+          screenmap_index   0x0001be       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+                screenmap   0x0001bf       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
+      arkanoid_game_speed   0x000200       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+         snake_game_speed   0x000202       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+        tetris_game_speed   0x000204       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+            buzzer_enable   0x000206       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+           splash_enabled   0x000207       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+         voltage_detector   0x000208       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                     game   0x000209       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+               sleep_time   0x00020a       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+               deep_sleep   0x00020c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+ sleep_counter_multiplier   0x00020e       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+             letter_blank   0x00020f       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_A   0x000214       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+           letter_A_small   0x000219       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_B   0x00021e       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_C   0x000223       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_D   0x000228       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_E   0x00022d       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_F   0x000232       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_G   0x000237       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_H   0x00023c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_I   0x000241       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_K   0x000246       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_L   0x00024b       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_M   0x000250       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_N   0x000255       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_O   0x00025a       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_P   0x00025f       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+           letter_P_small   0x000264       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_R   0x000269       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_S   0x00026e       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+           letter_S_small   0x000273       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_T   0x000278       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_U   0x00027d       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_V   0x000282       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+                 letter_W   0x000287       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+             letter_right   0x00028c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+              letter_left   0x000291       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+               letter_int   0x000296       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+              letter_tick   0x00029b       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+             letter_cross   0x0002a0       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\graphics.h
+  kicks_tetromino_general   0x000400       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris_data.h
+        kicks_tetromino_I   0x000432       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris_data.h
+             speed_ball_x   0x000464       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+             speed_ball_y   0x000468       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+               pos_x_ball   0x00046c       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+               pos_y_ball   0x000470       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
+              bat_voltage   0x000474       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                ADC_digit   0x000478       data     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                   SPPDATA   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                SPPCFGbits   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    SPPCFG   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    SPPEPS   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                SPPEPSbits   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-               SPPCONbits   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    SPPCON   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     UFRM   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               SPPCONbits   0x000f65       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 UFRMLbits   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     UFRML   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                UFRMHbits   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UFRM   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     UFRMH   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UFRMHbits   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                       UIR   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                   UIRbits   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                  UIEbits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                       UIE   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     UEIR   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  UIEbits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEIRbits   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     UEIE   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEIR   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEIEbits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                USTATbits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEIE   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     USTAT   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     UCON   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                USTATbits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UCONbits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                UADDRbits   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UCON   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     UADDR   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 UCFGbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UADDRbits   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UCFG   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UCFGbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP0   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEP0bits   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP1   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEP1bits   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP2   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEP2bits   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 UEP3bits   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP3   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 UEP4bits   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP3bits   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP4   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP4bits   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEP5bits   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP5   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEP6bits   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP6   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     UEP7   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEP7bits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 UEP8bits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     UEP7   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP8   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 UEP8bits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  UEP9bits   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      UEP9   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 UEP10bits   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     UEP10   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 UEP11bits   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     UEP11   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                UEP12bits   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     UEP12   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                UEP12bits   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 UEP13bits   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     UEP13   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                    UEP14   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 UEP14bits   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    UEP14   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 UEP15bits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     UEP15   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     PORTD   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                PORTDbits   0x000f83       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  LATDbits   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      LATD   0x000f8c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      LATE   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 LATEbits   0x000f8d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  DDRDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     DDRD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 TRISDbits   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     TRISD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     DDRD   0x000f95       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                    TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                TRISEbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 DDREbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      DDRE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 DDREbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                TRISEbits   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    TRISE   0x000f96       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
               OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                   OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                      IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                 CMCONbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-               CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    CCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                CCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-              CCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                  CCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
              ECCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  ECCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              CCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  CCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                   BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
               BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                   BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                  CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
               CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                  CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     CCPR2   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    CCPR2H   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                   CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
               CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-             ECCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                  ECCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+             ECCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                     CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm

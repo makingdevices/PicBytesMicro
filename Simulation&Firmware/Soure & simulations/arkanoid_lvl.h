@@ -6,18 +6,18 @@
 #ifndef __arkanoid_game_lvl
 #define __arkanoid_game_lvl
 
-char lvlspeed[10] = 
+int lvlspeed[10] = 
 	{
-	40,
-	35,
-	30,
-	30,
-	30,
-	25,
-	25,
-	22,
-	23,
-	20,
+	400,
+	350,
+	300,
+	300,
+	300,
+	250,
+	250,
+	220,
+	230,
+	200,
 	};
 rom char lvlbrick[10][41] = {//First: number of bricks, then X,Y of bricks
 	{		//LEVEL 0

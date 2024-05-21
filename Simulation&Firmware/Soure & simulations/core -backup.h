@@ -128,8 +128,7 @@ char buttonmap = 0b00000000;	//Player one
 int ingame = 0;			// We should start at 0
 int game_selection = 9;    //We should start at 9
 float buzer_beep_timer = 0;
-int speed_menu = 220; //1 = without movement // 0 = with movement
-char timer1_counter = 2; //Around 2ms
+int speed_menu = 40; //1 = without movement // 0 = with movement
 
 void ADC_Init()
 {    	
@@ -205,6 +204,10 @@ void print_screen(void){
 	}
 	LATB = 0b00000001 << row_controlled;
 	LATD = screenmap[screenmap_index];
+
+	if(buzer_beep_timer>0){
+		LATCbits.LATC2 = 1;
+	}
 
 	if(screenmap_index>7){
 		LATE = 0b00000001;
@@ -293,32 +296,26 @@ void remove_sprite(char x, char y, char *sprite){
 	}
 }
 
-void timer1_start(void){
-
-  T1CON	 = 0x00;
-  TMR1H	 = 0xE2;  //Every 2.5ms
-  TMR1L	 = 0xB4;
-  PIE1bits.TMR1IE = 1;
-  INTCON	 = 0xC0;
-  RCONbits.IPEN       = 1;    //Enable Interrupt Priorities
-  INTCONbits.GIEL     = 1;    //Enable Low Priority Interrupt
-  IPR1bits.TMR1IP = 0; //TIMER 1 to low priority
-  PIR1bits.TMR1IF = 0;  // T1 int flag bit cleared before starting
-  T1CONbits.TMR1ON = 1;   // timer1 START
-
+void timer0_start(void){
+    T0CONbits.T08BIT = 0;   // 16-bit timer
+    T0CONbits.T0CS = 1;     // increment on instruction cycle input
+    T0CONbits.T0SE = 0;     // increment on low--> high transition of clock
+    T0CONbits.PSA = 0;
+//	PIE2bits.USBIE = 0;
+	T0CONbits.T0PS2 = 0;
+	T0CONbits.T0PS1 = 0;
+	T0CONbits.T0PS0 = 0;
+	TMR0H = 0xFE;
+	TMR0L = 0x70;
+    RCONbits.IPEN       = 1;    //Enable Interrupt Priorities
+    INTCONbits.GIEL     = 1;    //Enable Low Priority Interrupt
+    INTCONbits.GIEH     = 1;    //Enable high priority interrupts        
+    INTCONbits.TMR0IE   = 1;    //Enable Timer0 Interrupt
+    INTCON2bits.TMR0IP  = 0;    //TMR0 set to low Priority Interrupt
+    INTCONbits.TMR0IF = 0;  // T0 int flag bit cleared before starting
+    T0CONbits.TMR0ON = 1;   // timer0 START
 }
 
-void delay_timer1(int time){  //let's wait "time" ms.
-	int ms_counter = 0;
-	while(ms_counter<time){
-		ms_counter = ms_counter + timer1_counter;
-		Sleep();
-		if(deep_sleep>sleep_time){
-			ms_counter = 0;
-			clean_screen();
-		} 
-	}
-}
 void splash_init(){
 	char shift,j,g,i;
 	ADCON1 = 0x0F;   
@@ -327,20 +324,19 @@ void splash_init(){
 	TRISC = 0b00000001;
 	TRISD = 0;
 	TRISE = 0;
-	OSCCONbits.IDLEN = 1; //Set idle mode.
-	timer1_start();
+	timer0_start();
 	if(splash_enabled == 1){
 		for(g=1;g<17;g++){
 			for(j=1;j<11;j++){
 				write_screen(j,g,1);
-				delay_timer1(20);
+				Delay1KTCYx(30);
 			}
 		}
 	
 		for(g=1;g<17;g++){
 			for(j=1;j<11;j++){
 				write_screen(j,g,0);
-				delay_timer1(20);
+				Delay1KTCYx(30);
 			}
 		}
 		for(i=0;i<70;i++){
@@ -370,7 +366,7 @@ void splash_init(){
 			print_sprite(60-i,9,letter_E);
 			remove_sprite(66-i,9,letter_S);
 			print_sprite(65-i,9,letter_S);
-			delay_timer1(90);
+			Delay10KTCYx(10);
 		}
 	}
 }
@@ -408,7 +404,7 @@ void menu(){
 				print_sprite(21-i,4,letter_K);
 				remove_sprite(27-i,4,letter_E);
 				print_sprite(26-i,4,letter_E);
-				delay_timer1(speed_menu);
+				Delay10KTCYx(speed_menu);
 
 				if(read_button(6)==1){ //button
 					buzzer_beep(500);
@@ -436,7 +432,7 @@ void menu(){
 					remove_sprite(26-i,4,letter_E);
 					print_sprite(22-i,4,letter_K);
 					print_sprite(27-i,4,letter_E);
-					delay_timer1(speed_menu);
+					Delay10KTCYx(speed_menu);
 
 					if(read_button(6)==1){ //button
 						clean_screen();
@@ -468,7 +464,7 @@ void menu(){
 				print_sprite(22-i,4,letter_I);
 				remove_sprite(28-i,4,letter_S);
 				print_sprite(27-i,4,letter_S);
-				delay_timer1(speed_menu);
+				Delay10KTCYx(speed_menu);
 
 				if(read_button(6)==1){ //button
 					clean_screen();
@@ -499,7 +495,7 @@ void menu(){
 					print_sprite(23-i,4,letter_I);
 					remove_sprite(27-i,4,letter_S);
 					print_sprite(28-i,4,letter_S);
-					delay_timer1(speed_menu);
+					Delay10KTCYx(speed_menu);
 					if(read_button(6)==1){ //button
 						clean_screen();
 						buzzer_beep(500);
@@ -535,7 +531,7 @@ void menu(){
 				print_sprite(34-i,4,letter_I);
 				remove_sprite(40-i,4,letter_D);
 				print_sprite(39-i,4,letter_D);
-				delay_timer1(speed_menu);
+				Delay10KTCYx(speed_menu);
 
 				if(read_button(6)==1){ //button
 					clean_screen();
@@ -571,7 +567,7 @@ void menu(){
 					print_sprite(35-i,4,letter_I);
 					remove_sprite(39-i,4,letter_D);
 					print_sprite(40-i,4,letter_D);
-					delay_timer1(speed_menu);
+					Delay10KTCYx(speed_menu);
 					if(read_button(6)==1){ //button
 						clean_screen();
 						buzzer_beep(500);
@@ -607,7 +603,7 @@ void menu(){
 				print_sprite(33-i,4,letter_G);
 				remove_sprite(40-i,4,letter_S);
 				print_sprite(39-i,4,letter_S);
-				delay_timer1(speed_menu);
+				Delay10KTCYx(speed_menu);
 
 				if(read_button(6)==1){ //button
 					option = 4;
@@ -641,7 +637,7 @@ void menu(){
 					print_sprite(34-i,4,letter_G);
 					remove_sprite(39-i,4,letter_S);
 					print_sprite(40-i,4,letter_S);
-					delay_timer1(speed_menu);
+					Delay10KTCYx(speed_menu);
 					if(read_button(6)==1){ //button
 						option = 4;
 						wait_buttons();
@@ -675,7 +671,7 @@ void menu(){
 				print_sprite(20-i,4,letter_N);
 				remove_sprite(27-i,4,letter_D);
 				print_sprite(26-i,4,letter_D);
-				delay_timer1(speed_menu);
+				Delay10KTCYx(speed_menu);
 
 				if(read_button(6)==1 || read_button(5)==1){ //button
 					if(read_button(6)==1){
@@ -717,7 +713,7 @@ void menu(){
 					remove_sprite(26-i,4,letter_D);
 					print_sprite(21-i,4,letter_N);
 					print_sprite(27-i,4,letter_D);	
-					delay_timer1(speed_menu);
+					Delay10KTCYx(speed_menu);
 					if(read_button(6)==1 || read_button(5)==1){ //button
 						if(read_button(6)==1){
 							change_sound();
@@ -766,7 +762,7 @@ void menu(){
 				print_sprite(24-i,4,letter_S);
 				remove_sprite(30-i,4,letter_H);
 				print_sprite(29-i,4,letter_H);
-				delay_timer1(speed_menu);
+				Delay10KTCYx(speed_menu);
 
 				if(read_button(6)==1 || read_button(5)==1){ //button
 					if(read_button(6)==1){
@@ -809,7 +805,7 @@ void menu(){
 					print_sprite(25-i,4,letter_S);	
 					remove_sprite(29-i,4,letter_H);
 					print_sprite(30-i,4,letter_H);
-					delay_timer1(speed_menu);
+					Delay10KTCYx(speed_menu);
 					if(read_button(6)==1 || read_button(5)==1){ //button
 						if(read_button(6)==1){
 							change_splash();
@@ -853,7 +849,7 @@ void menu(){
 				print_sprite(29-i,4,letter_R);
 				remove_sprite(34-i,4,letter_E);
 				print_sprite(33-i,4,letter_E);
-				delay_timer1(speed_menu);
+				Delay10KTCYx(speed_menu);
 
 				if(read_button(6)==1 || read_button(5)==1){ //button
 					if(read_button(6)==1){
@@ -893,7 +889,7 @@ void menu(){
 					print_sprite(30-i,4,letter_R);
 					remove_sprite(33-i,4,letter_E);
 					print_sprite(34-i,4,letter_E);
-					delay_timer1(speed_menu);
+					Delay10KTCYx(speed_menu);
 					if(read_button(6)==1 || read_button(5)==1){ //button
 						if(read_button(6)==1){
 							option = 7;
@@ -928,7 +924,7 @@ void menu(){
 				print_sprite(19-i,4,letter_E);
 				remove_sprite(25-i,4,letter_int);
 				print_sprite(24-i,4,letter_int);
-				delay_timer1(speed_menu);
+				Delay10KTCYx(speed_menu);
 
 				if(read_button(6)==1 || read_button(5)==1){ //button
 					if(read_button(6)==1){
@@ -957,7 +953,7 @@ void menu(){
 					remove_sprite(24-i,4,letter_int);
 					print_sprite(20-i,4,letter_E);
 					print_sprite(25-i,4,letter_int);	
-					delay_timer1(speed_menu);
+					Delay10KTCYx(speed_menu);
 					if(read_button(6)==1 || read_button(5)==1){ //button
 						if(read_button(6)==1){
 							restore_EEPROM();

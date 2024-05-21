@@ -12,12 +12,16 @@
 //Declarations of big chunks of data
 
 
-char arkanoid_game_speed = 40;
-char snake_game_speed = 30;
-char tetris_game_speed = 20;
+int arkanoid_game_speed = 800;
+int snake_game_speed = 250;
+int tetris_game_speed = 200;
 char buzzer_enable = 1; //1 = enabled // 0 = disabled
 char splash_enabled = 0; //1 = enabled // 0 = disabled
 char voltage_detector = 1; //1 = enabled // 0 = disabled (for old HW)
+char game=0;
+unsigned int sleep_time = 23000; //Time before deep sleep
+unsigned int deep_sleep = 0;
+char sleep_counter_multiplier = 0;
 
 #include "graphics.h"
 #include "tetris_data.h"
@@ -54,13 +58,20 @@ _asm goto _high_isr _endasm
 
 #pragma interrupt _low_isr
 char state = 0;
-char game=0;
+
 void _low_isr (void)
 {
-if(INTCONbits.TMR0IF) //Timer0 interrupt
+//PIR1bits.TMR1IF
+//INTCONbits.TMR0IF
+if(PIR1bits.TMR1IF) //Timer0 interrupt
 {
-	if(buzer_beep_timer>0){
-		buzer_beep_timer -= 1;
+	if(++sleep_counter_multiplier>2){
+		deep_sleep++;
+		sleep_counter_multiplier = 0;
+	}
+	if(buttonmap!=0)deep_sleep=0;
+	if(buzer_beep_timer>0 && buzzer_enable==1){
+		buzer_beep_timer -= 2;
 		LATCbits.LATC2 = 1;
 	} else {
 		LATCbits.LATC2 = 0;
@@ -71,10 +82,14 @@ if(INTCONbits.TMR0IF) //Timer0 interrupt
 	if(game_selection==0)check_movement();
 	if(game_selection==2)check_movement_arkanoid();
 	if(game_selection==1)check_movement_tetris();
-	TMR0H = 0xFE;
-	TMR0L = 0xF0;
-	INTCONbits.TMR0IF = 0; // reset overflow bit
+    TMR1H = 0xE8;
+    TMR1L = 0x90;
+	PIR1bits.TMR1IF = 0; // reset overflow bit
 }
+/*
+ OSCCONbits.IDLEN = 1; //Set idle mode.;
+ OSCCONbits.SCS0 = 0; //Set idle mode.;
+ OSCCONbits.SCS1 = 0; //Set idle mode.;*/
 }
 
 #pragma interrupt _high_isr
@@ -110,19 +125,20 @@ void main(void)
 	if(game_selection==2) arkanoid_sel_init();
 	if(game_selection==1) tetris_sel_init();
 	while(game_selection==0){
-		Delay10KTCYx(snake_game_speed);
+		delay_timer1(snake_game_speed);
 		food_snake();
 		move_snake();
 	}
 	while(game_selection==2){
-		Delay10KTCYx(arkanoid_game_speed);
+		delay_timer1(arkanoid_game_speed);
 		move_ball();
 		//Wait until the game is done
 	}
 	while(game_selection==1){
-		Delay10KTCYx(tetris_game_speed);
+		delay_timer1(tetris_game_speed);
 		move_tetrominoe();
 	}
+	Sleep();
 }
 
 

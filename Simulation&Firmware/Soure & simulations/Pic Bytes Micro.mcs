@@ -2,7 +2,7 @@
 MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
 Version=1.0
 [File000]
-Location=D:\GitHub\PicBytesMicro\Simulation&Firmware\main.o
+Location=D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.o
 Folder=Intermediary
 DeviceName=PIC18F4550
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
@@ -15,7 +15,7 @@ ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
 DebugOptions=
 [File001]
-Location=D:\GitHub\PicBytesMicro\Simulation&Firmware\Pic Bytes Micro.cof
+Location=D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\Pic Bytes Micro.cof
 Folder=Output
 DeviceName=PIC18F4550
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
@@ -28,7 +28,7 @@ ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /
 TraceCmdString=
 DebugOptions=
 [File002]
-Location=D:\GitHub\PicBytesMicro\Simulation&Firmware\Pic Bytes Micro.hex
+Location=D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\Pic Bytes Micro.hex
 Folder=Output
 DeviceName=PIC18F4550
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}

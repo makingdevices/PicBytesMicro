@@ -32,7 +32,8 @@ void tetris_init(void){
 	game_ram[67] = 0;
 	game_ram[68] = 0;
 	game_ram[69] = 0;
-	tetris_game_speed = 20;
+	clean_screen();
+	tetris_game_speed = 200;
 }
 
 
@@ -89,7 +90,7 @@ char check_tetris_line(void){
 	}
 	if(point>0){
 		buzzer_beep(150);
-		if(tetris_game_speed>8)tetris_game_speed--;
+		if(tetris_game_speed>90)tetris_game_speed= tetris_game_speed - 5;
 	}
 	return point;
 } 

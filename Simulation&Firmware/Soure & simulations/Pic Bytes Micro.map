@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Tue May 21 21:42:19 2024
+Linker Map File - Created Wed May 22 18:36:17 2024
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -19,19 +19,19 @@ Linker Map File - Created Tue May 21 21:42:19 2024
       .idata_fxd0808u.o_i    romdata   0x000010    program   0x000000
                low_vector       code   0x000018    program   0x000006
                    .cinit    romdata   0x00001e    program   0x000032
-             .code_main.o       code   0x000050    program   0x007336
-                     PROG       code   0x007386    program   0x0005f0
-          .romdata_main.o    romdata   0x007976    program   0x00019a
-               _cinit_scn       code   0x007b10    program   0x00009e
-                   STDLIB       code   0x007bae    program   0x00003c
-             D10KTCYXCODE       code   0x007bea    program   0x00002e
-         .code_fxd1616u.o       code   0x007c18    program   0x00002c
-                    .code       code   0x007c44    program   0x000020
-             _startup_scn       code   0x007c64    program   0x00001c
-         .code_fxd0808u.o       code   0x007c80    program   0x00001c
-    my_memory_section_2_i    romdata   0x007c9c    program   0x00007c
-    my_memory_section_1_i    romdata   0x007d18    program   0x0000d7
-          .idata_main.o_i    romdata   0x007def    program   0x0000a5
+             .code_main.o       code   0x000050    program   0x007340
+                     PROG       code   0x007390    program   0x0005f0
+          .romdata_main.o    romdata   0x007980    program   0x00019a
+               _cinit_scn       code   0x007b1a    program   0x00009e
+                   STDLIB       code   0x007bb8    program   0x00003c
+             D10KTCYXCODE       code   0x007bf4    program   0x00002e
+         .code_fxd1616u.o       code   0x007c22    program   0x00002c
+                    .code       code   0x007c4e    program   0x000020
+             _startup_scn       code   0x007c6e    program   0x00001c
+         .code_fxd0808u.o       code   0x007c8a    program   0x00001c
+    my_memory_section_2_i    romdata   0x007ca6    program   0x00007c
+    my_memory_section_1_i    romdata   0x007d22    program   0x0000d7
+          .idata_main.o_i    romdata   0x007df9    program   0x0000a5
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300006_main.o    romdata   0x300006    program   0x000001
                 MATH_DATA      udata   0x000000       data   0x000014
@@ -60,10 +60,10 @@ Linker Map File - Created Tue May 21 21:42:19 2024
                                Start         End      
                            ---------   ---------      
                             0x000000    0x00000f      
-                            0x000018    0x007e93      
+                            0x000018    0x007e9d      
                             0x300001    0x300001      
                             0x300006    0x300006      
-            32398 out of 33048 program addresses used, program memory utilization is 98%
+            32408 out of 33048 program addresses used, program memory utilization is 98%
 
 
 
@@ -72,83 +72,83 @@ Linker Map File - Created Tue May 21 21:42:19 2024
                 ---------  ---------  ---------  --------- ---------                
                  ADC_Init   0x000230    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
                  ADC_Read   0x000240    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
-                   D10K_1   0x007bf6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x007c02    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x007bf4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                   D1616S   0x007680    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x00768e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x00768a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x0076a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x007670    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-             Delay10KTCYx   0x007bea    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                 FLO1632S   0x00738a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                 FLO1632U   0x007386    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    FPA32   0x0073b2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                    FPD32   0x0074de    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    FPM32   0x007584    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                    FPS32   0x0073b0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 FXD0808U   0x007c80    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
-                 FXD1616S   0x00765e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXD1616U   0x007c18    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                 FXM1616S   0x0076aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                 FXM1616U   0x00793a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
-                  INT3208   0x007704    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  TAEQB32   0x007752    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\eqFP.asm
-                  TAGTB32   0x007760    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
-                  TALTB32   0x007772    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
-               TSIGN1616A   0x0076f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-       _D10KTCYXCODE_0010   0x007bfa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x007c06    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-              __FpCompare   0x007784    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 __FpExit   0x00783a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpPack   0x007866    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-            __FpReturnNaN   0x00782e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x007840    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x007858    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x007846    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x007860    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x00783c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x007854    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpReturnW   0x0078be    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpUnPackA   0x0078de    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x00790e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-         ___else_lbl00593   0x00726e    program     static                          
+                   D10K_1   0x007c00    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x007c0c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x007bfe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D1616S   0x00768a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x007698    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x007694    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0076aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x00767a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+             Delay10KTCYx   0x007bf4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                 FLO1632S   0x007394    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632U   0x007390    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPA32   0x0073bc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                    FPD32   0x0074e8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    FPM32   0x00758e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                    FPS32   0x0073ba    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 FXD0808U   0x007c8a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
+                 FXD1616S   0x007668    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x007c22    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 FXM1616S   0x0076b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                 FXM1616U   0x007944    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                  INT3208   0x00770e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  TAEQB32   0x00775c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\eqFP.asm
+                  TAGTB32   0x00776a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
+                  TALTB32   0x00777c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
+               TSIGN1616A   0x007700    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+       _D10KTCYXCODE_0010   0x007c04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x007c10    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+              __FpCompare   0x00778e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 __FpExit   0x007844    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x007870    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x007838    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x00784a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x007862    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x007850    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x00786a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x007846    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x00785e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x0078c8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0078e8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x007918    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+         ___else_lbl00594   0x007278    program     static                          
            ___if_lbl00081   0x000ccc    program     static                          
-           ___if_lbl00592   0x00727c    program     static                          
-           ___if_lbl00594   0x00728e    program     static                          
-           ___if_lbl00595   0x0072ea    program     static                          
-           ___if_lbl00596   0x0072fe    program     static                          
-           ___if_lbl00597   0x00730e    program     static                          
-           ___if_lbl00598   0x00731c    program     static                          
-       ___return_lbl00000   0x007c9a    program     static                          
-       ___return_lbl00000   0x007c42    program     static                          
+           ___if_lbl00593   0x007286    program     static                          
+           ___if_lbl00595   0x007298    program     static                          
+           ___if_lbl00596   0x0072f4    program     static                          
+           ___if_lbl00597   0x007308    program     static                          
+           ___if_lbl00598   0x007318    program     static                          
+           ___if_lbl00599   0x007326    program     static                          
+       ___return_lbl00000   0x007ca4    program     static                          
+       ___return_lbl00000   0x007c4c    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00001   0x007c7e    program     static                          
-       ___return_lbl00002   0x007bac    program     static                          
+       ___return_lbl00001   0x007c88    program     static                          
+       ___return_lbl00002   0x007bb6    program     static                          
        ___return_lbl00078   0x000cce    program     static                          
        ___return_lbl00576   0x00001c    program     static                          
        ___return_lbl00577   0x00000c    program     static                          
-       ___return_lbl00591   0x007384    program     static                          
+       ___return_lbl00592   0x00738e    program     static                          
         ___while_lbl00079   0x000c6a    program     static                          
         ___while_lbl00080   0x000cce    program     static                          
-        ___while_lbl00599   0x00731c    program     static                          
-        ___while_lbl00600   0x00733e    program     static                          
-        ___while_lbl00601   0x00733e    program     static                          
-        ___while_lbl00602   0x007360    program     static                          
-        ___while_lbl00603   0x007360    program     static                          
-        ___while_lbl00604   0x007382    program     static                          
+        ___while_lbl00600   0x007326    program     static                          
+        ___while_lbl00601   0x007348    program     static                          
+        ___while_lbl00602   0x007348    program     static                          
+        ___while_lbl00603   0x00736a    program     static                          
+        ___while_lbl00604   0x00736a    program     static                          
+        ___while_lbl00605   0x00738c    program     static                          
                __config_0   0x300001    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                __config_1   0x300006    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                    __init   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-             __tmplbl_204   0x000c8a    program     static                          
-             __tmplbl_212   0x00424e    program     static                          
-             __tmplbl_261   0x0012f4    program     static                          
-            __zero_memory   0x007c44    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                _do_cinit   0x007b10    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+             __tmplbl_206   0x000c8a    program     static                          
+             __tmplbl_214   0x00424e    program     static                          
+             __tmplbl_263   0x0012f4    program     static                          
+            __zero_memory   0x007c4e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                _do_cinit   0x007b1a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                _high_isr   0x0071f0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                _high_isr   0x0071fa    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                  _low_isr   0x007084    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
-                 _startup   0x007c64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 _startup   0x007c6e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
         arkanoid_end_game   0x004f4a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
             arkanoid_init   0x004de2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
         arkanoid_sel_init   0x005d40    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
@@ -166,84 +166,84 @@ Linker Map File - Created Tue May 21 21:42:19 2024
         check_tetris_line   0x00660a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
             clean_buttons   0x000328    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
              clean_screen   0x00074e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
-                compare_l   0x007c5a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                copy_loop   0x007b82    program     static                          
-            copy_one_byte   0x007b88    program     static                          
+                compare_l   0x007c64    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                copy_loop   0x007b8c    program     static                          
+            copy_one_byte   0x007b92    program     static                          
              create_level   0x004c50    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
              delay_timer1   0x000c5a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
-                     done   0x007bac    program     static                          
-             done_copying   0x007b96    program     static                          
+                     done   0x007bb6    program     static                          
+             done_copying   0x007ba0    program     static                          
           end_tetris_game   0x0065bc    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
-                  endloop   0x007c96    program     static                          
-                  endloop   0x007c3e    program     static                          
+                  endloop   0x007ca0    program     static                          
+                  endloop   0x007c48    program     static                          
                food_snake   0x00444a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
            high_interrupt   0x000008    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
           initiate_EEPROM   0x0000a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
-                 jANotInf   0x0073da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jANotInf   0x0075a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 jANotInf   0x0074fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jANotNeg   0x00746e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jANotZero   0x007510    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-              jAandWsetup   0x00743e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                  jAisNeg   0x007800    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 jAltBexp   0x00742c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jBANotInf   0x0073d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jBNotInf   0x0073e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-              jBothFinite   0x0075b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x0077a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-             jBothNotZero   0x0075bc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-            jDifOrPosSign   0x0073fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                      jEQ   0x0077be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jExch   0x0077ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jExit   0x007750    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                   jExpEQ   0x007810    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jFinal   0x0077f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-               jFinalSign   0x0074d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jHaveZero   0x0075b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jI2F16Beg   0x00739a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    jLoop   0x007738    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                    jLoop   0x007538    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jLoopExit   0x007746    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                     jMax   0x007714    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x00771e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jMaxPos   0x007718    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                      jNE   0x0077c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jNext   0x00755e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jNoAdjust   0x00755c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                  jNoExch   0x0077ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-             jNotBothZero   0x007400    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                  jNotInf   0x007728    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jPkLoop   0x007874    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkRoundDone   0x0078be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jPkRoundIt   0x0078a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkShiftDone   0x007890    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x00784a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                  jRotate   0x00781c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jShift   0x007806    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-               jShiftDone   0x007496    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-               jShiftLoop   0x007488    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jSignDone   0x0074c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-              jSignedZero   0x007506    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jSignsEQ   0x0077a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jUnpkA1   0x0078e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x007900    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x0078f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x007918    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x007930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x007926    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x00790a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jWNotNeg   0x007482    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                    jZero   0x007724    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-               jZero1and2   0x00784e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                     loop   0x007c74    program     static                          
-                     loop   0x007c22    program     static                          
-                     loop   0x007c88    program     static                          
-                   loop_h   0x007c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_l   0x007c5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 jANotInf   0x0073e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jANotInf   0x0075ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 jANotInf   0x007506    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jANotNeg   0x007478    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jANotZero   0x00751a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+              jAandWsetup   0x007448    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                  jAisNeg   0x00780a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 jAltBexp   0x007436    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jBANotInf   0x0073da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jBNotInf   0x0073f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+              jBothFinite   0x0075ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0077ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+             jBothNotZero   0x0075c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+            jDifOrPosSign   0x007406    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                      jEQ   0x0077c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExch   0x0077d4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExit   0x00775a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                   jExpEQ   0x00781a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jFinal   0x0077fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+               jFinalSign   0x0074e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jHaveZero   0x0075c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jI2F16Beg   0x0073a4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    jLoop   0x007742    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                    jLoop   0x007542    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jLoopExit   0x007750    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                     jMax   0x00771e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x007728    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jMaxPos   0x007722    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                      jNE   0x0077cc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jNext   0x007568    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jNoAdjust   0x007566    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                  jNoExch   0x0077f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+             jNotBothZero   0x00740a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                  jNotInf   0x007732    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jPkLoop   0x00787e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x0078c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0078b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x00789a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x007854    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jRotate   0x007826    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jShift   0x007810    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+               jShiftDone   0x0074a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+               jShiftLoop   0x007492    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jSignDone   0x0074d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+              jSignedZero   0x007510    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jSignsEQ   0x0077b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jUnpkA1   0x0078f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x00790a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x007900    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x007922    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x00793a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x007930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x007914    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jWNotNeg   0x00748c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                    jZero   0x00772e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+               jZero1and2   0x007858    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                     loop   0x007c7e    program     static                          
+                     loop   0x007c2c    program     static                          
+                     loop   0x007c92    program     static                          
+                   loop_h   0x007c5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x007c66    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
            low_batt_alert   0x00427a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
             low_interrupt   0x000018    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
-                 lvlbrick   0x007976    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid_lvl.h
-                     main   0x007206    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                 lvlbrick   0x007980    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid_lvl.h
+                     main   0x007210    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                      menu   0x0012a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
                 move_ball   0x00569a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid.h
                move_snake   0x004762    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
@@ -251,7 +251,7 @@ Linker Map File - Created Tue May 21 21:42:19 2024
            new_tetrominoe   0x006788    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
              print_screen   0x0003ae    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
              print_sprite   0x0007c6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
-                     rand   0x007bbc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                     rand   0x007bc6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
                    readEE   0x000050    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
               read_button   0x0002e6    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
               read_screen   0x000476    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
@@ -261,9 +261,9 @@ Linker Map File - Created Tue May 21 21:42:19 2024
                snake_init   0x004364    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
            snake_sel_init   0x004a70    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
               splash_init   0x000ce2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
-                    srand   0x007bae    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                    srand   0x007bb8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
               stack_snake   0x004518    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
-                     test   0x007b2a    program     static                          
+                     test   0x007b34    program     static                          
               tetris_init   0x00604a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
           tetris_sel_init   0x006ea2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
              timer1_start   0x000c3e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
@@ -272,7 +272,7 @@ Linker Map File - Created Tue May 21 21:42:19 2024
                   writeEE   0x000070    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\EEPROM.h
              write_button   0x0002a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
              write_screen   0x000584    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
-               zero_block   0x007c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               zero_block   0x007c5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
@@ -662,7 +662,7 @@ Linker Map File - Created Tue May 21 21:42:19 2024
              timer1_start   0x000c3e    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
              delay_timer1   0x000c5a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
         ___while_lbl00079   0x000c6a    program     static                          
-             __tmplbl_204   0x000c8a    program     static                          
+             __tmplbl_206   0x000c8a    program     static                          
            ___if_lbl00081   0x000ccc    program     static                          
         ___while_lbl00080   0x000cce    program     static                          
        ___return_lbl00078   0x000cce    program     static                          
@@ -670,8 +670,8 @@ Linker Map File - Created Tue May 21 21:42:19 2024
              wait_buttons   0x00121c    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
        change_menu_screen   0x001262    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
                      menu   0x0012a2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
-             __tmplbl_261   0x0012f4    program     static                          
-             __tmplbl_212   0x00424e    program     static                          
+             __tmplbl_263   0x0012f4    program     static                          
+             __tmplbl_214   0x00424e    program     static                          
            low_batt_alert   0x00427a    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\core.h
                snake_init   0x004364    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
            snake_end_game   0x0043fe    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\snake.h
@@ -698,142 +698,142 @@ Linker Map File - Created Tue May 21 21:42:19 2024
     check_movement_tetris   0x00695c    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
           tetris_sel_init   0x006ea2    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h
                  _low_isr   0x007084    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
-                _high_isr   0x0071f0    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
-                     main   0x007206    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
-         ___else_lbl00593   0x00726e    program     static                          
-           ___if_lbl00592   0x00727c    program     static                          
-           ___if_lbl00594   0x00728e    program     static                          
-           ___if_lbl00595   0x0072ea    program     static                          
-           ___if_lbl00596   0x0072fe    program     static                          
-           ___if_lbl00597   0x00730e    program     static                          
-        ___while_lbl00599   0x00731c    program     static                          
-           ___if_lbl00598   0x00731c    program     static                          
-        ___while_lbl00600   0x00733e    program     static                          
-        ___while_lbl00601   0x00733e    program     static                          
-        ___while_lbl00603   0x007360    program     static                          
-        ___while_lbl00602   0x007360    program     static                          
-        ___while_lbl00604   0x007382    program     static                          
-       ___return_lbl00591   0x007384    program     static                          
-                 FLO1632U   0x007386    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                 FLO1632S   0x00738a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                jI2F16Beg   0x00739a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
-                    FPS32   0x0073b0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                    FPA32   0x0073b2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jBANotInf   0x0073d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jANotInf   0x0073da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jBNotInf   0x0073e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-            jDifOrPosSign   0x0073fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-             jNotBothZero   0x007400    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jAltBexp   0x00742c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-              jAandWsetup   0x00743e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jANotNeg   0x00746e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                 jWNotNeg   0x007482    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-               jShiftLoop   0x007488    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-               jShiftDone   0x007496    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                jSignDone   0x0074c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-               jFinalSign   0x0074d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
-                    FPD32   0x0074de    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                 jANotInf   0x0074fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-              jSignedZero   0x007506    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jANotZero   0x007510    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jLoop   0x007538    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                jNoAdjust   0x00755c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    jNext   0x00755e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
-                    FPM32   0x007584    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 jANotInf   0x0075a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-              jBothFinite   0x0075b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                jHaveZero   0x0075b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-             jBothNotZero   0x0075bc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
-                 FXD1616S   0x00765e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x007670    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                   D1616S   0x007680    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x00768a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x00768e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x0076a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXM1616S   0x0076aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x0076f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                  INT3208   0x007704    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                     jMax   0x007714    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jMaxPos   0x007718    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x00771e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                    jZero   0x007724    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  jNotInf   0x007728    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                    jLoop   0x007738    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                jLoopExit   0x007746    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                    jExit   0x007750    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
-                  TAEQB32   0x007752    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\eqFP.asm
-                  TAGTB32   0x007760    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
-                  TALTB32   0x007772    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
-              __FpCompare   0x007784    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-             jBothNotZero   0x0077a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                 jSignsEQ   0x0077a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                      jEQ   0x0077be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                      jNE   0x0077c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                    jExch   0x0077ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jNoExch   0x0077ea    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jFinal   0x0077f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jAisNeg   0x007800    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jShift   0x007806    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                   jExpEQ   0x007810    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-                  jRotate   0x00781c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
-            __FpReturnNaN   0x00782e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpExit   0x00783a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x00783c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x007840    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x007846    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x00784a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jZero1and2   0x00784e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x007854    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x007858    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x007860    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                 __FpPack   0x007866    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-                  jPkLoop   0x007874    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkShiftDone   0x007890    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-               jPkRoundIt   0x0078a6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpReturnW   0x0078be    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-             jPkRoundDone   0x0078be    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
-              __FpUnPackA   0x0078de    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA1   0x0078e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x0078f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x007900    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x00790a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x00790e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x007918    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x007926    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x007930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
-                 FXM1616U   0x00793a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
-                 lvlbrick   0x007976    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid_lvl.h
-                _do_cinit   0x007b10    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x007b2a    program     static                          
-                copy_loop   0x007b82    program     static                          
-            copy_one_byte   0x007b88    program     static                          
-             done_copying   0x007b96    program     static                          
-                     done   0x007bac    program     static                          
-       ___return_lbl00002   0x007bac    program     static                          
-                    srand   0x007bae    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-                     rand   0x007bbc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-             Delay10KTCYx   0x007bea    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x007bf4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x007bf6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x007bfa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x007c02    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x007c06    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                 FXD1616U   0x007c18    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                     loop   0x007c22    program     static                          
-                  endloop   0x007c3e    program     static                          
-       ___return_lbl00000   0x007c42    program     static                          
-            __zero_memory   0x007c44    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-               zero_block   0x007c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_h   0x007c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                compare_l   0x007c5a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_l   0x007c5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 _startup   0x007c64    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x007c74    program     static                          
-       ___return_lbl00001   0x007c7e    program     static                          
-                 FXD0808U   0x007c80    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
-                     loop   0x007c88    program     static                          
-                  endloop   0x007c96    program     static                          
-       ___return_lbl00000   0x007c9a    program     static                          
+                _high_isr   0x0071fa    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+                     main   0x007210    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
+         ___else_lbl00594   0x007278    program     static                          
+           ___if_lbl00593   0x007286    program     static                          
+           ___if_lbl00595   0x007298    program     static                          
+           ___if_lbl00596   0x0072f4    program     static                          
+           ___if_lbl00597   0x007308    program     static                          
+           ___if_lbl00598   0x007318    program     static                          
+        ___while_lbl00600   0x007326    program     static                          
+           ___if_lbl00599   0x007326    program     static                          
+        ___while_lbl00601   0x007348    program     static                          
+        ___while_lbl00602   0x007348    program     static                          
+        ___while_lbl00604   0x00736a    program     static                          
+        ___while_lbl00603   0x00736a    program     static                          
+        ___while_lbl00605   0x00738c    program     static                          
+       ___return_lbl00592   0x00738e    program     static                          
+                 FLO1632U   0x007390    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                 FLO1632S   0x007394    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                jI2F16Beg   0x0073a4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cast16FP.asm
+                    FPS32   0x0073ba    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                    FPA32   0x0073bc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jBANotInf   0x0073da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jANotInf   0x0073e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jBNotInf   0x0073f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+            jDifOrPosSign   0x007406    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+             jNotBothZero   0x00740a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jAltBexp   0x007436    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+              jAandWsetup   0x007448    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jANotNeg   0x007478    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                 jWNotNeg   0x00748c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+               jShiftLoop   0x007492    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+               jShiftDone   0x0074a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                jSignDone   0x0074d0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+               jFinalSign   0x0074e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\addFP.asm
+                    FPD32   0x0074e8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                 jANotInf   0x007506    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+              jSignedZero   0x007510    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jANotZero   0x00751a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jLoop   0x007542    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                jNoAdjust   0x007566    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    jNext   0x007568    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\divFP.asm
+                    FPM32   0x00758e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 jANotInf   0x0075ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+              jBothFinite   0x0075ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                jHaveZero   0x0075c2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0075c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\mulFP.asm
+                 FXD1616S   0x007668    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x00767a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D1616S   0x00768a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x007694    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x007698    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0076aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXM1616S   0x0076b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x007700    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                  INT3208   0x00770e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                     jMax   0x00771e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jMaxPos   0x007722    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x007728    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                    jZero   0x00772e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  jNotInf   0x007732    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                    jLoop   0x007742    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                jLoopExit   0x007750    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                    jExit   0x00775a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\castFP08.asm
+                  TAEQB32   0x00775c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\eqFP.asm
+                  TAGTB32   0x00776a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\gtFP.asm
+                  TALTB32   0x00777c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\ltFP.asm
+              __FpCompare   0x00778e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+             jBothNotZero   0x0077ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                 jSignsEQ   0x0077b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jEQ   0x0077c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                      jNE   0x0077cc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                    jExch   0x0077d4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jNoExch   0x0077f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jFinal   0x0077fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jAisNeg   0x00780a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jShift   0x007810    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                   jExpEQ   0x00781a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+                  jRotate   0x007826    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\compFP.asm
+            __FpReturnNaN   0x007838    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpExit   0x007844    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x007846    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x00784a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x007850    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x007854    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jZero1and2   0x007858    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x00785e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x007862    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x00786a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                 __FpPack   0x007870    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+                  jPkLoop   0x00787e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkShiftDone   0x00789a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0078b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpReturnW   0x0078c8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+             jPkRoundDone   0x0078c8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\packFP.asm
+              __FpUnPackA   0x0078e8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x0078f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x007900    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x00790a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x007914    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x007918    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x007922    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x007930    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x00793a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\UnpackFP.asm
+                 FXM1616U   0x007944    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                 lvlbrick   0x007980    program     extern D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\arkanoid_lvl.h
+                _do_cinit   0x007b1a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x007b34    program     static                          
+                copy_loop   0x007b8c    program     static                          
+            copy_one_byte   0x007b92    program     static                          
+             done_copying   0x007ba0    program     static                          
+                     done   0x007bb6    program     static                          
+       ___return_lbl00002   0x007bb6    program     static                          
+                    srand   0x007bb8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                     rand   0x007bc6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+             Delay10KTCYx   0x007bf4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x007bfe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x007c00    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x007c04    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x007c0c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x007c10    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                 FXD1616U   0x007c22    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x007c2c    program     static                          
+                  endloop   0x007c48    program     static                          
+       ___return_lbl00000   0x007c4c    program     static                          
+            __zero_memory   0x007c4e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               zero_block   0x007c5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_h   0x007c5c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                compare_l   0x007c64    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x007c66    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 _startup   0x007c6e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x007c7e    program     static                          
+       ___return_lbl00001   0x007c88    program     static                          
+                 FXD0808U   0x007c8a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd0808u.c
+                     loop   0x007c92    program     static                          
+                  endloop   0x007ca0    program     static                          
+       ___return_lbl00000   0x007ca4    program     static                          
                __config_0   0x300001    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                __config_1   0x300006    program     static D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c
                      SIGN   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm

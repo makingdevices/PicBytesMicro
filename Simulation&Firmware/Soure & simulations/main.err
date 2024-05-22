@@ -8,6 +8,6 @@ Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\ar
 Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h 20 : call of function without prototype
 Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h 21 : call of function without prototype
 Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\tetris.h 102 : call of function without prototype
-Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c 111 : call of function without prototype
-Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c 120 : call of function without prototype
-Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c 122 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c 107 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c 116 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Soure & simulations\main.c 118 : call of function without prototype

@@ -65,7 +65,7 @@ void _low_isr (void)
 //INTCONbits.TMR0IF
 if(PIR1bits.TMR1IF) //Timer0 interrupt
 {
-	if(++sleep_counter_multiplier>2){
+	if(++sleep_counter_multiplier>2 && deep_sleep <= sleep_time){
 		deep_sleep++;
 		sleep_counter_multiplier = 0;
 	}
@@ -86,10 +86,6 @@ if(PIR1bits.TMR1IF) //Timer0 interrupt
     TMR1L = 0x90;
 	PIR1bits.TMR1IF = 0; // reset overflow bit
 }
-/*
- OSCCONbits.IDLEN = 1; //Set idle mode.;
- OSCCONbits.SCS0 = 0; //Set idle mode.;
- OSCCONbits.SCS1 = 0; //Set idle mode.;*/
 }
 
 #pragma interrupt _high_isr

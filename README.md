@@ -166,9 +166,10 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 
 ## Sponsor - Würth Elektronik
 
-[Wurth Elektronik](https://www.we-online.com/en) is the most professional PCB manufacturer for prototyping and low-volume production to work with in the world. With more than a decade in the field, They are committed to meeting the needs of their customers from different industries in terms of quality, delivery, cost-effectiveness and any other demanding requests. As Sponsor of Making Devices, they will be in charge of all the PCBs for MDV, allowing both of us to grow together in a long term partnership. We hope you take them into account for your both personal and professional prototypes or products.
+[Wurth Elektronik](https://www.we-online.com/en) is one of the leading manufacturers of electronic and electromechanical components. The best I can say about them is to show you some pictures: All the LEDs from the board are from them. They also have buttons, resistors and capacitors that we use in all our PCBs. They also have some design kits with a lifetime refill which are amazing for makers and business so you can prototype on the go with a huge variety of components!
 
 [![Sponsor Shot][sponsor-wurth-1]][sponsor-url-wurth]
+[![Sponsor Shot][sponsor-wurth-3]][sponsor-url-wurth]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -190,9 +191,10 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-shield]: https://img.shields.io/badge/SPONSOR-PCBWAY-black.svg?style=for-the-badge&colorB=1200
 [sponsor-url]: https://www.pcbway.com/?from=makingdevices
 [sponsor-screenshot]: /images/PCB_sponsor.png
-[sponsor-pcb-1]: /images/TClogger_pcb1.jpg
-[sponsor-pcb-2]: /images/TClogger_pcb2.jpg
-[sponsor-wurth-1]: /images/TClogger_pcb1.jpg
+[sponsor-pcb-1]: /images/picbytesmicro_pcb1.jpg
+[sponsor-pcb-2]: /images/picbytesmicro_pcb2.jpg
+[sponsor-wurth-1]: /images/wurth_1.jpg
+[sponsor-wurth-3]: /images/wurth_3.jpg
 [sponsor-url-wurth]: https://www.we-online.com/en
 [product-screenshot]: images/screenshot.jpg
 [PIC]: https://img.shields.io/badge/PIC18LF4550-000000?style=for-the-badge

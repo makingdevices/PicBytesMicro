@@ -72,9 +72,7 @@
 
 [![Bytes Counter Shot][product-screenshot]](https://makingdevices.com/PicBytesMicro)
 
-Pic Bytes Micro was born to explore the capabilities of C language inside the PIC18F45k50, as I wanted to test if the 8bit microcontroller was able to run some old games such tetris, snake or arkanoid. To maintain the old-fashion look of the project, the screen is made by 16x10 matrix of LEDs, controlled by individual transistors and the IO pins of the PIC. In addition, sounds and a rechargable battery will be added to the device.
-
-This device is under development, so I do encourage you to not assembly, order any PCB or use any software from this repository until the project is finished.
+Pic Bytes Micro was born to explore the capabilities of C language inside the PIC18F4550, as I wanted to test if the 8bit microcontroller was able to run some old games such tetris, snake or arkanoid. To maintain the old-fashion look of the project, the screen is made by 16x10 matrix of LEDs, controlled by individual transistors and the IO pins of the PIC. In addition, sounds and a rechargable battery will be added to the device.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +88,12 @@ This device is under development, so I do encourage you to not assembly, order a
 <!-- GETTING STARTED -->
 
 ## Build one
-NOT RECOMMENDED AS THE DEVICE IS UNDER DEVELOPMENT
+The project is finished and no further development will be made. The device is safe, stable and It was tested. 
+
+1. Get the gerber files for the latest version: [V1.25](/Gerber/PicBytesMicroV1.25.zip) 
+2. Send them to a PCB manufacturer ([Our Sponsor is PCBWAY][sponsor-url])
+3. You can read the schematics: [V1.25](/output_files/PicBytesMicro_schematic_V1.25.pdf) 
+4. The firmware is available in: [V1.25](/Simulation%26Firmware) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,19 +111,21 @@ Instructions of use:
 
 - [x] Solder the prototype
 - [x] Test the LCD of the prototype
-- [ ] Design a PCB
-  - [ ] Add rechargeable battery
-  - [ ] Add USB communication if possible.
-  - [ ] Add sound control with the buzzers
-  - [ ] Develop Snake game
-  - [ ] Develop Tetris game
-  - [ ] Develop Arkanoid game
-- [ ] Validate the design
+- [x] Design a PCB
+  - [x] Add rechargeable battery
+  - [x] Add USB communication if possible.
+  - [x] Add sound control with the buzzers
+  - [x] Develop Snake game
+  - [x] Develop Tetris game
+  - [x] Develop Arkanoid game
+  - [x] Score board
+  - [x] Sleep Mode
+- [x] Validate the design
 
 
 See the [open issues](https://github.com/makingdevices/PicBytesMicro/issues) for a full list of proposed features (and known issues).
 
-State: Project <b>UNFINISHED</b> - 08/01/2023
+State: Project <b>FINISHED</b> - 22/05/2024
 
 Priority: <b>Medium</b>
 
@@ -146,6 +151,21 @@ Project Link: [https://github.com/makingdevices/PicBytesMicro](https://github.co
 
 Other Links: [LinkTree](https://makingdevices.com/links/)
 
+<!-- Sponsor -->
+## Sponsor - PCBWAY
+
+[PCBWAY](https://www.pcbway.com/?from=makingdevices) is the most professional PCB manufacturer for prototyping and low-volume production to work with in the world. With more than a decade in the field, They are committed to meeting the needs of their customers from different industries in terms of quality, delivery, cost-effectiveness and any other demanding requests. As Sponsor of Making Devices, they will be in charge of all the PCBs for MDV, allowing both of us to grow together in a long term partnership. We hope you take them into account for your both personal and professional prototypes or products.
+
+[![Sponsor Shot][sponsor-pcb-1]][sponsor-url]
+[![Sponsor Shot][sponsor-pcb-2]][sponsor-url]
+
+## Sponsor - Würth Elektronik
+
+[PCBWAY](https://www.pcbway.com/?from=makingdevices) is the most professional PCB manufacturer for prototyping and low-volume production to work with in the world. With more than a decade in the field, They are committed to meeting the needs of their customers from different industries in terms of quality, delivery, cost-effectiveness and any other demanding requests. As Sponsor of Making Devices, they will be in charge of all the PCBs for MDV, allowing both of us to grow together in a long term partnership. We hope you take them into account for your both personal and professional prototypes or products.
+
+[![Sponsor Shot][sponsor-pcb-1]][sponsor-url]
+[![Sponsor Shot][sponsor-pcb-2]][sponsor-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,8 +187,8 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-url]: https://www.pcbway.com/?from=makingdevices
 [sponsor-screenshot]: /images/PCB_sponsor.png
 [product-screenshot]: images/screenshot.jpg
-[PIC]: https://img.shields.io/badge/PIC18LF45K50-000000?style=for-the-badge
-[PIC-url]: https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PIC18F2X_45K50-30000684B.pdf
+[PIC]: https://img.shields.io/badge/PIC18LF4550-000000?style=for-the-badge
+[PIC-url]: https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39632e.pdf
 [kicad-shield]: https://img.shields.io/badge/kicad-0b03fc?style=for-the-badge&logo=kicad&logoColor=white
 [kicad-url]: https://www.kicad.org/
 [YT-screenshot]: images/YT_assembly.PNG

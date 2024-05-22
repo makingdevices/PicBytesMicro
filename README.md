@@ -36,7 +36,7 @@
 <h3 align="center">Making Devices</h3>
 
   <p align="center">
-    Open Source projects where we struggle with engineering, electronics, coding and who knows what else... Pic Bytes Micro is a 8-bit console based in the PIC18F45k50 with an analog LED matrix as the screen.
+    Open Source projects where we struggle with engineering, electronics, coding and who knows what else... Pic Bytes Micro is a 8-bit console based in the PIC18F4550 with an analog LED matrix as the screen.
   </p>
 </div>
 

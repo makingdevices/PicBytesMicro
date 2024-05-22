@@ -92,8 +92,9 @@ The project is finished and no further development will be made. The device is s
 
 1. Get the gerber files for the latest version: [V1.25](/Gerber/PicBytesMicroV1.25.zip) 
 2. Send them to a PCB manufacturer ([Our Sponsor is PCBWAY][sponsor-url])
-3. You can read the schematics: [V1.25](/output_files/PicBytesMicro_schematic_V1.25.pdf) 
-4. The firmware is available in: [V1.25](/Simulation%26Firmware) 
+3. You can read the [schematics](/output_files/PicBytesMicro_schematic_V1.25.pdf) 
+4. [The firmware is available on the repo](/Simulation%26Firmware) 
+5. For most of the components, you can reach to [Würth Elektronik, our sponsor for electronic components](https://www.we-online.com/en) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,6 +104,10 @@ The project is finished and no further development will be made. The device is s
 Instructions of use:
 
 - When turn on, a menu is shown to select between the available games.
+- Once you have played a game, a score board will appear everytime you open the game.
+- You have a setting menu to turn-off the init splash and the sound.
+- If you leave the console one minute without touching the buttons, it will turn into sleep mode.
+- Enjoy!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,10 +166,9 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 
 ## Sponsor - Würth Elektronik
 
-[PCBWAY](https://www.pcbway.com/?from=makingdevices) is the most professional PCB manufacturer for prototyping and low-volume production to work with in the world. With more than a decade in the field, They are committed to meeting the needs of their customers from different industries in terms of quality, delivery, cost-effectiveness and any other demanding requests. As Sponsor of Making Devices, they will be in charge of all the PCBs for MDV, allowing both of us to grow together in a long term partnership. We hope you take them into account for your both personal and professional prototypes or products.
+[Wurth Elektronik](https://www.we-online.com/en) is the most professional PCB manufacturer for prototyping and low-volume production to work with in the world. With more than a decade in the field, They are committed to meeting the needs of their customers from different industries in terms of quality, delivery, cost-effectiveness and any other demanding requests. As Sponsor of Making Devices, they will be in charge of all the PCBs for MDV, allowing both of us to grow together in a long term partnership. We hope you take them into account for your both personal and professional prototypes or products.
 
-[![Sponsor Shot][sponsor-pcb-1]][sponsor-url]
-[![Sponsor Shot][sponsor-pcb-2]][sponsor-url]
+[![Sponsor Shot][sponsor-wurth-1]][sponsor-url-wurth]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -186,6 +190,10 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-shield]: https://img.shields.io/badge/SPONSOR-PCBWAY-black.svg?style=for-the-badge&colorB=1200
 [sponsor-url]: https://www.pcbway.com/?from=makingdevices
 [sponsor-screenshot]: /images/PCB_sponsor.png
+[sponsor-pcb-1]: /images/TClogger_pcb1.jpg
+[sponsor-pcb-2]: /images/TClogger_pcb2.jpg
+[sponsor-wurth-1]: /images/TClogger_pcb1.jpg
+[sponsor-url-wurth]: https://www.we-online.com/en
 [product-screenshot]: images/screenshot.jpg
 [PIC]: https://img.shields.io/badge/PIC18LF4550-000000?style=for-the-badge
 [PIC-url]: https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39632e.pdf

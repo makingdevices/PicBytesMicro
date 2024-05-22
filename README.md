@@ -81,6 +81,7 @@ Pic Bytes Micro was born to explore the capabilities of C language inside the PI
 [![Microcontroller][PIC]][PIC-url]
 [![MPLAB C][MPLAB-C]][MPLAB-C-url]
 [![Kicad][kicad-shield]][kicad-url]
+[![SPONSOR][wurth-icon]][sponsor-url-wurth]
 [![SPONSOR][sponsor-icon]][sponsor-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -207,6 +208,7 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [ig-shield]: https://img.shields.io/badge/instagram-a83297?style=for-the-badge&logo=instagram&logoColor=white
 [ig-url]: https://www.instagram.com/makingdevices/
 [MPLAB-C]: https://img.shields.io/badge/MPLAB%20C18-DD0031?style=for-the-badge&logo=C&logoColor=white
+[wurth-icon]: https://img.shields.io/badge/Wurth%20elektronik-DD0031?style=for-the-badge&logoColor=white
 [MPLAB-C-url]: https://www.microchip.com/en-us/development-tool/SW006011
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/

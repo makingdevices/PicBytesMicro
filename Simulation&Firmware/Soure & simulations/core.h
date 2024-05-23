@@ -310,13 +310,19 @@ void timer1_start(void){
 
 void delay_timer1(int time){  //let's wait "time" ms.
 	int ms_counter = 0;
+	char did_i_sleep = 0;
 	while(ms_counter<time){
 		ms_counter = ms_counter + timer1_counter;
 		Sleep();
 		if(deep_sleep>sleep_time){
+			did_i_sleep = 1;
 			ms_counter = 0;
 			clean_screen();
-		} 
+		}
+		if(game_selection > 3 && did_i_sleep == 1 && deep_sleep<=sleep_time) {
+			print_sprite(9,10,letter_right);
+			print_sprite(1,10,letter_left); 
+		}
 	}
 }
 void splash_init(){

@@ -1,0 +1,13 @@
+Warning[2052] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\EEPROM.h 78 : unexpected return value
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\snake.h 15 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\snake.h 45 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\snake.h 46 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\arkanoid.h 35 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\arkanoid.h 107 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\arkanoid.h 118 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\tetris.h 20 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\tetris.h 21 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\tetris.h 102 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\main.c 107 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\main.c 116 : call of function without prototype
+Warning[2058] D:\GitHub\PicBytesMicro\Simulation&Firmware\Source & simulations\main.c 118 : call of function without prototype

@@ -145,6 +145,8 @@ Distributed under three licenses:
 - [Software](/License/SW_GPLv3.0.txt)
 - [Documentation](/License/Documentation_CC-BY-SA-4.0.txt)
 
+OSHWA License: [ES000047](https://certification.oshwa.org/es000047.html)
+
 [![GPL v3 License][license-shield]][license-url] 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

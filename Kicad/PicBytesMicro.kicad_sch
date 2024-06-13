@@ -4776,7 +4776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000600b27d4")
-		(property "Reference" "C_22p_1"
+		(property "Reference" "C12"
 			(at 239.4712 57.15 0)
 			(effects
 				(font
@@ -4785,14 +4785,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GCG21BR71H154KA01K"
-			(at 239.4712 58.293 90)
+		(property "Value" "22pF"
+			(at 231.648 55.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CAPC2012X145N"
@@ -4884,7 +4883,7 @@
 		(instances
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "C_22p_1")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4899,7 +4898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000600b8862")
-		(property "Reference" "C_22p_2"
+		(property "Reference" "C13"
 			(at 245.8212 57.15 0)
 			(effects
 				(font
@@ -4908,14 +4907,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GCG21BR71H154KA01K"
-			(at 245.8212 58.293 90)
+		(property "Value" "22pF"
+			(at 245.364 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CAPC2012X145N"
@@ -5007,7 +5005,7 @@
 		(instances
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "C_22p_2")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5022,7 +5020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000600dc8fc")
-		(property "Reference" "R_10k_1"
+		(property "Reference" "R45"
 			(at 204.47 135.89 0)
 			(effects
 				(font
@@ -5030,13 +5028,12 @@
 				)
 			)
 		)
-		(property "Value" "KTR10EZPF4220"
-			(at 204.47 135.0264 0)
+		(property "Value" "10k"
+			(at 204.724 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "RESC2012X65N"
@@ -5128,7 +5125,7 @@
 		(instances
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "R_10k_1")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5278,7 +5275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006014f4d4")
-		(property "Reference" "R4K7_1"
+		(property "Reference" "R7"
 			(at 120.65 55.245 0)
 			(effects
 				(font
@@ -5286,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Value" "KTR10EZPF4220"
+		(property "Value" "4k7"
 			(at 120.65 57.5564 0)
 			(effects
 				(font
@@ -5383,7 +5380,7 @@
 		(instances
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "R4K7_1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006124e0bf")
-		(property "Reference" "PIC18F45K1"
+		(property "Reference" "PIC18F4550"
 			(at 180.34 55.88 0)
 			(effects
 				(font
@@ -5527,7 +5524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PIC18F45K50-I_PT"
+		(property "Value" "PIC18F4550-I_PT"
 			(at 234.7976 82.423 0)
 			(effects
 				(font
@@ -5762,7 +5759,7 @@
 		(instances
 			(project "PicBytesMicro"
 				(path "/36e2b0cc-9d11-4a29-a898-cd33b5ef9720"
-					(reference "PIC18F45K1")
+					(reference "PIC18F4550")
 					(unit 1)
 				)
 			)

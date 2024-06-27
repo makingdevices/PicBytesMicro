@@ -1,0 +1,6167 @@
+## Footprint report - date 2024-06-27T19:37:08+0200
+## Created by KiCad version 8.0.2
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner -55.658506 -25.887415
+lower_right_corner 377.283278 258.221557
+$EndBOARD
+
+$MODULE C1
+footprint SamacSys_Parts:CAPC2012X140N
+attribut smd
+position 114.485000 109.050000  orientation -90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C1
+
+$MODULE C2
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 158.800000 116.450000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C2
+
+$MODULE C3
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 152.400000 120.850000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C3
+
+$MODULE C4
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 152.400000 115.250000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C4
+
+$MODULE C5
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 143.000000 115.550000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C5
+
+$MODULE C6
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 118.600000 118.700000  orientation 0.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C6
+
+$MODULE C7
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 128.570000 123.600000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C7
+
+$MODULE C8
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 124.805000 115.400000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C8
+
+$MODULE C9
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 132.575000 118.100000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C9
+
+$MODULE C10
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 154.350000 109.300000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C10
+
+$MODULE C11
+footprint User_lib:CAPC2012X140N
+attribut smd
+position 146.200000 124.400000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.800000  0.000000  size  1.020000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C11
+
+$MODULE C12
+footprint SamacSys_Parts:CAPC2012X145N
+attribut smd
+position 128.450000 108.650000  orientation 0.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.840000  0.000000  size  1.050000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.840000  0.000000  size  1.050000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C12
+
+$MODULE C13
+footprint SamacSys_Parts:CAPC2012X145N
+attribut smd
+position 128.450000 103.750000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.840000  0.000000  size  1.050000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.840000  0.000000  size  1.050000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C13
+
+$MODULE C14
+footprint SamacSys_Parts:CAPC2012X145N
+attribut smd
+position 156.400000 127.740000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.840000  0.000000  size  1.050000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.840000  0.000000  size  1.050000  1.470000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C14
+
+$MODULE D1
+footprint User_lib:SS12FP
+attribut smd
+position 143.000000 120.150000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.900000  0.000000  size  1.400000  2.300000  orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  1.425000  0.000000  size  1.250000  1.400000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D1
+
+$MODULE H_Bat+1
+footprint User:Mounting-Pad
+attribut smd
+position 128.200000 100.600000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position  0.000000  0.000000  size  2.000000  3.500000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H_Bat+1
+
+$MODULE H_Bat-1
+footprint User:Mounting-Pad
+attribut smd
+position 116.600000 98.400000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position  0.000000  0.000000  size  2.000000  3.500000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H_Bat-1
+
+$MODULE IC1
+footprint SamacSys_Parts:AP9214LANHSBR7
+attribut smd
+position 118.350000 109.050000  orientation -90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.550000  1.650000  size  0.500000  1.200000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.400000  1.650000  size  0.400000  0.500000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position  0.950000  1.650000  size  0.400000  0.500000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  0.950000 -1.650000  size  0.400000  0.500000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer front
+position  0.400000 -1.650000  size  0.400000  0.500000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer front
+position -0.550000 -1.650000  size  0.500000  1.200000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer front
+position  0.000000  0.000000  size  2.210000  2.400000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  IC1
+
+$MODULE IC2
+footprint User_lib:SOP65P490X110-8N
+attribut smd
+position 154.400000 118.050000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -2.200000  0.975000  size  0.450000  1.400000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -2.200000  0.325000  size  0.450000  1.400000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position -2.200000 -0.325000  size  0.450000  1.400000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer back
+position -2.200000 -0.975000  size  0.450000  1.400000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer back
+position  2.200000 -0.975000  size  0.450000  1.400000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer back
+position  2.200000 -0.325000  size  0.450000  1.400000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer back
+position  2.200000  0.325000  size  0.450000  1.400000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Rect Layer back
+position  2.200000  0.975000  size  0.450000  1.400000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  IC2
+
+$MODULE IC_BMS_TP1
+footprint SamacSys_Parts:SOIC127P600X175-9N
+attribut smd
+position 151.600000 125.900000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -2.712000  1.905000  size  0.700000  1.525000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -2.712000  0.635000  size  0.700000  1.525000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position -2.712000 -0.635000  size  0.700000  1.525000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer back
+position -2.712000 -1.905000  size  0.700000  1.525000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer back
+position  2.712000 -1.905000  size  0.700000  1.525000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer back
+position  2.712000 -0.635000  size  0.700000  1.525000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer back
+position  2.712000  0.635000  size  0.700000  1.525000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Rect Layer back
+position  2.712000  1.905000  size  0.700000  1.525000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Rect Layer back
+position  0.000000  0.000000  size  2.513000  3.402000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  IC_BMS_TP1
+
+$MODULE J1
+footprint User_lib:TC2030-MCP-NL
+attribut none
+position 157.770000 106.135000  orientation 180.00
+layer front
+$PAD "1"
+Shape Circle Layer front
+position -1.270000  0.635000  size  0.889000  0.889000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer front
+position -1.270000 -0.635000  size  0.889000  0.889000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer front
+position  0.000000  0.635000  size  0.889000  0.889000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Circle Layer front
+position  0.000000 -0.635000  size  0.889000  0.889000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Circle Layer front
+position  1.270000  0.635000  size  0.889000  0.889000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Circle Layer front
+position  1.270000 -0.635000  size  0.889000  0.889000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Circle Layer both
+position -2.540000  0.000000  size  1.550000  1.550000  orientation 0.00
+drill  1.066800
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Circle Layer both
+position  2.540000 -1.016000  size  1.550000  1.550000  orientation 0.00
+drill  1.066800
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Circle Layer both
+position  2.540000  1.016000  size  1.550000  1.550000  orientation 0.00
+drill  1.066800
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE J_USB_C1
+footprint SamacSys_Parts:TYPEC31M17
+attribut none
+position 137.250000 126.400000  orientation 180.00
+layer back
+$PAD "A5"
+Shape Rect Layer back
+position -0.500000  2.500000  size  0.700000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "A9"
+Shape Rect Layer back
+position  1.520000  2.500000  size  0.760000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "A12"
+Shape Rect Layer back
+position  2.750000  2.500000  size  0.800000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "B5"
+Shape Rect Layer back
+position  0.500000  2.500000  size  0.700000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "B9"
+Shape Rect Layer back
+position -1.520000  2.500000  size  0.760000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "B12"
+Shape Rect Layer back
+position -2.750000  2.500000  size  0.800000  1.200000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "MH1"
+Shape Circle Layer both
+position -4.320000 -1.450000  size  2.000000  2.000000  orientation -90.00
+drill  1.346000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "MH2"
+Shape Circle Layer both
+position  4.320000 -1.450000  size  2.000000  2.000000  orientation -90.00
+drill  1.346000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "MH3"
+Shape Circle Layer both
+position  4.320000  2.350000  size  2.000000  2.000000  orientation -90.00
+drill  1.346000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "MH4"
+Shape Circle Layer both
+position -4.320000  2.350000  size  2.000000  2.000000  orientation -90.00
+drill  1.346000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J_USB_C1
+
+$MODULE L1
+footprint User_lib:SRN6045_1
+attribut smd
+position 147.400000 118.250000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -2.150000  0.000000  size  2.010000  6.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  2.150000  0.000000  size  2.010000  6.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  L1
+
+$MODULE LED1
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED1
+
+$MODULE LED2
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED2
+
+$MODULE LED3
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED3
+
+$MODULE LED4
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED4
+
+$MODULE LED5
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED5
+
+$MODULE LED6
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED6
+
+$MODULE LED7
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED7
+
+$MODULE LED8
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED8
+
+$MODULE LED9
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED9
+
+$MODULE LED10
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED10
+
+$MODULE LED11
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED11
+
+$MODULE LED12
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED12
+
+$MODULE LED13
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED13
+
+$MODULE LED14
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED14
+
+$MODULE LED15
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED15
+
+$MODULE LED16
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 120.881058 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED16
+
+$MODULE LED17
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED17
+
+$MODULE LED18
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 52.615794  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED18
+
+$MODULE LED19
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED19
+
+$MODULE LED20
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 59.799999  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED20
+
+$MODULE LED21
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 63.392101  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED21
+
+$MODULE LED22
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 66.984204  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED22
+
+$MODULE LED23
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 70.576306  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED23
+
+$MODULE LED24
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED24
+
+$MODULE LED25
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 77.760511  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED25
+
+$MODULE LED26
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED26
+
+$MODULE LED27
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 84.944716  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED27
+
+$MODULE LED28
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED28
+
+$MODULE LED29
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 92.128921  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED29
+
+$MODULE LED30
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED30
+
+$MODULE LED31
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 99.313126  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED31
+
+$MODULE LED32
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 124.507529 102.905228  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED32
+
+$MODULE LED33
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED33
+
+$MODULE LED34
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED34
+
+$MODULE LED35
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED35
+
+$MODULE LED36
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED36
+
+$MODULE LED37
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED37
+
+$MODULE LED38
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED38
+
+$MODULE LED39
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED39
+
+$MODULE LED40
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED40
+
+$MODULE LED41
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED41
+
+$MODULE LED42
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED42
+
+$MODULE LED43
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED43
+
+$MODULE LED44
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED44
+
+$MODULE LED45
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED45
+
+$MODULE LED46
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED46
+
+$MODULE LED47
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED47
+
+$MODULE LED48
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 128.134000 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED48
+
+$MODULE LED49
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED49
+
+$MODULE LED50
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED50
+
+$MODULE LED51
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED51
+
+$MODULE LED52
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED52
+
+$MODULE LED53
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED53
+
+$MODULE LED54
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED54
+
+$MODULE LED55
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED55
+
+$MODULE LED56
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED56
+
+$MODULE LED57
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED57
+
+$MODULE LED58
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED58
+
+$MODULE LED59
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED59
+
+$MODULE LED60
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED60
+
+$MODULE LED61
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED61
+
+$MODULE LED62
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED62
+
+$MODULE LED63
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED63
+
+$MODULE LED64
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 131.760471 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED64
+
+$MODULE LED65
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED65
+
+$MODULE LED66
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED66
+
+$MODULE LED67
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED67
+
+$MODULE LED68
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED68
+
+$MODULE LED69
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED69
+
+$MODULE LED70
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED70
+
+$MODULE LED71
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED71
+
+$MODULE LED72
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED72
+
+$MODULE LED73
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED73
+
+$MODULE LED74
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED74
+
+$MODULE LED75
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED75
+
+$MODULE LED76
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED76
+
+$MODULE LED77
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED77
+
+$MODULE LED78
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED78
+
+$MODULE LED79
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED79
+
+$MODULE LED80
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 135.386942 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED80
+
+$MODULE LED81
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED81
+
+$MODULE LED82
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED82
+
+$MODULE LED83
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED83
+
+$MODULE LED84
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED84
+
+$MODULE LED85
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED85
+
+$MODULE LED86
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED86
+
+$MODULE LED87
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED87
+
+$MODULE LED88
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED88
+
+$MODULE LED89
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED89
+
+$MODULE LED90
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED90
+
+$MODULE LED91
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED91
+
+$MODULE LED92
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED92
+
+$MODULE LED93
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED93
+
+$MODULE LED94
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED94
+
+$MODULE LED95
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED95
+
+$MODULE LED96
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 139.013413 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED96
+
+$MODULE LED97
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED97
+
+$MODULE LED98
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED98
+
+$MODULE LED99
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED99
+
+$MODULE LED100
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED100
+
+$MODULE LED101
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED101
+
+$MODULE LED102
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED102
+
+$MODULE LED103
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED103
+
+$MODULE LED104
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED104
+
+$MODULE LED105
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED105
+
+$MODULE LED106
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED106
+
+$MODULE LED107
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED107
+
+$MODULE LED108
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED108
+
+$MODULE LED109
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED109
+
+$MODULE LED110
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED110
+
+$MODULE LED111
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED111
+
+$MODULE LED112
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 142.639884 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED112
+
+$MODULE LED113
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED113
+
+$MODULE LED114
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED114
+
+$MODULE LED115
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED115
+
+$MODULE LED116
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED116
+
+$MODULE LED117
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED117
+
+$MODULE LED118
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED118
+
+$MODULE LED119
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED119
+
+$MODULE LED120
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED120
+
+$MODULE LED121
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED121
+
+$MODULE LED122
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED122
+
+$MODULE LED123
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED123
+
+$MODULE LED124
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED124
+
+$MODULE LED125
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED125
+
+$MODULE LED126
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED126
+
+$MODULE LED127
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED127
+
+$MODULE LED128
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 146.266355 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED128
+
+$MODULE LED129
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED129
+
+$MODULE LED130
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED130
+
+$MODULE LED131
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED131
+
+$MODULE LED132
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED132
+
+$MODULE LED133
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED133
+
+$MODULE LED134
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED134
+
+$MODULE LED135
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED135
+
+$MODULE LED136
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED136
+
+$MODULE LED137
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED137
+
+$MODULE LED138
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED138
+
+$MODULE LED139
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED139
+
+$MODULE LED140
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED140
+
+$MODULE LED141
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED141
+
+$MODULE LED142
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED142
+
+$MODULE LED143
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED143
+
+$MODULE LED144
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 149.892826 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED144
+
+$MODULE LED145
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 49.023692  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED145
+
+$MODULE LED146
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 52.615795  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED146
+
+$MODULE LED147
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 56.207897  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED147
+
+$MODULE LED148
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 59.800000  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED148
+
+$MODULE LED149
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 63.392102  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED149
+
+$MODULE LED150
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 66.984205  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED150
+
+$MODULE LED151
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 70.576307  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED151
+
+$MODULE LED152
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 74.168409  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED152
+
+$MODULE LED153
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 77.760512  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED153
+
+$MODULE LED154
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 81.352614  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED154
+
+$MODULE LED155
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 84.944717  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED155
+
+$MODULE LED156
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 88.536819  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED156
+
+$MODULE LED157
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 92.128922  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED157
+
+$MODULE LED158
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 95.721024  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED158
+
+$MODULE LED159
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 99.313127  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED159
+
+$MODULE LED160
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 153.519297 102.905229  orientation 45.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.949999  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED160
+
+$MODULE LED_green_bms1
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 118.600000 127.200000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED_green_bms1
+
+$MODULE LED_Red_bms1
+footprint SamacSys_Parts:LEDC2012X90N
+attribut smd
+position 116.092500 127.200000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  0.900000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED_Red_bms1
+
+$MODULE LS1
+footprint SamacSys_Parts:TMB12A05
+attribut none
+position 116.800000 105.900000  orientation 90.00
+layer back
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.300000  1.300000  orientation -90.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  0.000000  7.600000  size  1.300000  1.300000  orientation -90.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LS1
+
+$MODULE PIC18F4550
+footprint SamacSys_Parts:QFP80P1200X1200X120-44N
+attribut smd
+position 141.162000 106.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -5.738000  4.000000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -5.738000  3.200000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position -5.738000  2.400000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer back
+position -5.738000  1.600000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Rect Layer back
+position -5.738000  0.800000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Rect Layer back
+position -5.738000  0.000000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Rect Layer back
+position -5.738000 -0.800000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Rect Layer back
+position -5.738000 -1.600000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Rect Layer back
+position -5.738000 -2.400000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Rect Layer back
+position -5.738000 -3.200000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Rect Layer back
+position -5.738000 -4.000000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "12"
+Shape Rect Layer back
+position -4.000000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "13"
+Shape Rect Layer back
+position -3.200000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "14"
+Shape Rect Layer back
+position -2.400000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "15"
+Shape Rect Layer back
+position -1.600000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "16"
+Shape Rect Layer back
+position -0.800000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "17"
+Shape Rect Layer back
+position  0.000000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "18"
+Shape Rect Layer back
+position  0.800000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "19"
+Shape Rect Layer back
+position  1.600000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "20"
+Shape Rect Layer back
+position  2.400000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "21"
+Shape Rect Layer back
+position  3.200000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "22"
+Shape Rect Layer back
+position  4.000000 -5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "23"
+Shape Rect Layer back
+position  5.738000 -4.000000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "24"
+Shape Rect Layer back
+position  5.738000 -3.200000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "25"
+Shape Rect Layer back
+position  5.738000 -2.400000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "26"
+Shape Rect Layer back
+position  5.738000 -1.600000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "27"
+Shape Rect Layer back
+position  5.738000 -0.800000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "28"
+Shape Rect Layer back
+position  5.738000  0.000000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "29"
+Shape Rect Layer back
+position  5.738000  0.800000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "30"
+Shape Rect Layer back
+position  5.738000  1.600000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "31"
+Shape Rect Layer back
+position  5.738000  2.400000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "32"
+Shape Rect Layer back
+position  5.738000  3.200000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "33"
+Shape Rect Layer back
+position  5.738000  4.000000  size  0.600000  1.475000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "34"
+Shape Rect Layer back
+position  4.000000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "35"
+Shape Rect Layer back
+position  3.200000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "36"
+Shape Rect Layer back
+position  2.400000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "37"
+Shape Rect Layer back
+position  1.600000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "38"
+Shape Rect Layer back
+position  0.800000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "39"
+Shape Rect Layer back
+position  0.000000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "40"
+Shape Rect Layer back
+position -0.800000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "41"
+Shape Rect Layer back
+position -1.600000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "42"
+Shape Rect Layer back
+position -2.400000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "43"
+Shape Rect Layer back
+position -3.200000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "44"
+Shape Rect Layer back
+position -4.000000  5.738000  size  0.600000  1.475000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  PIC18F4550
+
+$MODULE Q1
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 126.150000 111.645000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q1
+
+$MODULE Q2
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 50.650000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q2
+
+$MODULE Q3
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 83.589997  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q3
+
+$MODULE Q4
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.000000 50.700000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q4
+
+$MODULE Q5
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.000000 69.377776  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q5
+
+$MODULE Q6
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 54.308333  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q6
+
+$MODULE Q7
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 87.298330  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q7
+
+$MODULE Q8
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.000000 54.400000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q8
+
+$MODULE Q9
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.000000 73.122220  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q9
+
+$MODULE Q10
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 57.951666  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q10
+
+$MODULE Q11
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 90.891663  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q11
+
+$MODULE Q12
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 65.283332  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q12
+
+$MODULE Q13
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 156.925000 87.961108  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q13
+
+$MODULE Q14
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 79.916664  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q14
+
+$MODULE Q15
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 156.925000 102.661108  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q15
+
+$MODULE Q16
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.000000 58.144444  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q16
+
+$MODULE Q17
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 158.987500 76.866664  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q17
+
+$MODULE Q18
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 61.624999  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q18
+
+$MODULE Q19
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 94.921664  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q19
+
+$MODULE Q20
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 68.941665  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q20
+
+$MODULE Q21
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 156.925000 91.651108  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q21
+
+$MODULE Q22
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.000000 61.888888  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q22
+
+$MODULE Q23
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.025000 80.611108  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q23
+
+$MODULE Q24
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 72.599998  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q24
+
+$MODULE Q25
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 156.925000 95.311108  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q25
+
+$MODULE Q26
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.000000 65.633332  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q26
+
+$MODULE Q27
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 159.000000 84.355552  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q27
+
+$MODULE Q28
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 115.100000 76.258331  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q28
+
+$MODULE Q29
+footprint SamacSys_Parts:SOT96P237X111-3N
+attribut smd
+position 156.925000 98.986108  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -1.050000  0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position -1.050000 -0.955000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  1.050000  0.000000  size  0.600000  1.250000  orientation -90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q29
+
+$MODULE R1
+footprint SamacSys_Parts:RESC2012X75N
+attribut smd
+position 115.700000 112.525000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE R2
+footprint SamacSys_Parts:RESC2012X75N
+attribut smd
+position 119.700000 112.525000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE R3
+footprint User_lib:RESC2012X75N
+attribut smd
+position 155.800000 115.250000  orientation 0.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE R4
+footprint SamacSys_Parts:RESC2012X75N
+attribut smd
+position 135.200000 107.700000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R4
+
+$MODULE R5
+footprint User_lib:RESC2012X75N
+attribut smd
+position 158.800000 119.850000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R5
+
+$MODULE R6
+footprint User_lib:RESC2012X75N
+attribut smd
+position 155.800000 120.850000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R6
+
+$MODULE R7
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 129.200000 111.695000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R7
+
+$MODULE R8
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 50.650000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R8
+
+$MODULE R9
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 83.489997  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R9
+
+$MODULE R10
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 120.199668 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R10
+
+$MODULE R11
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 138.921888 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R11
+
+$MODULE R12
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 54.253333  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R12
+
+$MODULE R13
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 87.098330  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R13
+
+$MODULE R14
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.975000 50.700000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R14
+
+$MODULE R15
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.975000 69.377776  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R15
+
+$MODULE R16
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 123.944112 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R16
+
+$MODULE R17
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 142.666332 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R17
+
+$MODULE R18
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 58.051666  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R18
+
+$MODULE R19
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 90.841663  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R19
+
+$MODULE R20
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.975000 54.400000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R20
+
+$MODULE R21
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.975000 73.122220  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R21
+
+$MODULE R22
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 65.233332  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R22
+
+$MODULE R23
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 160.225000 87.961108  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R23
+
+$MODULE R24
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 79.866664  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R24
+
+$MODULE R25
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 160.225000 102.611108  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R25
+
+$MODULE R26
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 127.688556 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R26
+
+$MODULE R27
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 146.410776 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R27
+
+$MODULE R28
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 61.624999  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R28
+
+$MODULE R29
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 94.971664  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R29
+
+$MODULE R30
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.975000 58.144444  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R30
+
+$MODULE R31
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.987500 76.866664  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R31
+
+$MODULE R32
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 68.891665  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R32
+
+$MODULE R33
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 160.225000 91.551108  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R33
+
+$MODULE R34
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 131.433000 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R34
+
+$MODULE R35
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 150.155220 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R35
+
+$MODULE R36
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.975000 61.888888  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R36
+
+$MODULE R37
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 72.599998  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R37
+
+$MODULE R38
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 160.225000 95.311108  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R38
+
+$MODULE R39
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 135.177444 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R39
+
+$MODULE R40
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 153.899664 47.500000  orientation 180.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R40
+
+$MODULE R41
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.975000 65.633332  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R41
+
+$MODULE R42
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.975000 84.355552  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R42
+
+$MODULE R43
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.300000 76.258331  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R43
+
+$MODULE R44
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 160.225000 98.936108  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R44
+
+$MODULE R45
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 138.500000 118.100000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R45
+
+$MODULE R46
+footprint User_lib:RESC2012X75N
+attribut smd
+position 118.600000 116.700000  orientation 0.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R46
+
+$MODULE R47
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 118.600000 114.900000  orientation 0.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R47
+
+$MODULE R48
+footprint User_lib:RESC2012X75N
+attribut smd
+position 126.600000 123.600000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R48
+
+$MODULE R49
+footprint User_lib:RESC2012X75N
+attribut smd
+position 128.705000 115.400000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R49
+
+$MODULE R50
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 126.700000 115.400000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R50
+
+$MODULE R51
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 124.570000 123.600000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R51
+
+$MODULE R52
+footprint User_lib:RESC2012X75N
+attribut smd
+position 134.500000 118.100000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R52
+
+$MODULE R53
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 136.425000 118.100000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R53
+
+$MODULE R54
+footprint User_lib:RESC2012X75N
+attribut smd
+position 157.600000 109.300000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R54
+
+$MODULE R55
+footprint User_lib:RESC2012X75N
+attribut smd
+position 149.450000 124.400000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R55
+
+$MODULE R56
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 156.200000 117.900000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R56
+
+$MODULE R57
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 148.300000 116.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R57
+
+$MODULE R58
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 156.400000 124.300000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R58
+
+$MODULE R59
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 146.800000 127.900000  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R59
+
+$MODULE R60
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 146.800000 124.350000  orientation 90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R60
+
+$MODULE R61
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 137.300000 128.600000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R61
+
+$MODULE R62
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 137.300000 126.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R62
+
+$MODULE R220
+footprint SamacSys_Parts:RESC2012X65N
+attribut smd
+position 155.950000 80.611108  orientation -90.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  1.000000  1.450000  orientation 360.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R220
+
+$MODULE SW_Toggle1
+footprint SamacSys_Parts:K31260DL1
+attribut none
+position 124.275000 128.050000  orientation 0.00
+layer back
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.300000  1.300000  orientation 270.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  2.500000  0.000000  size  1.300000  1.300000  orientation 270.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position  5.000000  0.000000  size  1.300000  1.300000  orientation 270.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  SW_Toggle1
+
+$MODULE S_a1
+footprint User_lib:430182070816
+attribut smd
+position 148.100065 120.221365  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position  3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  S_a1
+
+$MODULE S_b1
+footprint User_lib:430182070816
+attribut smd
+position 156.000065 113.521365  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position  3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  S_b1
+
+$MODULE S_down1
+footprint User_lib:430182070816
+attribut smd
+position 126.600000 123.542730  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position  3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  S_down1
+
+$MODULE S_left1
+footprint User_lib:430182070816
+attribut smd
+position 118.600000 116.750000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position  3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  S_left1
+
+$MODULE S_right1
+footprint User_lib:430182070816
+attribut smd
+position 134.550000 116.750000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position  3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  S_right1
+
+$MODULE S_up1
+footprint User_lib:430182070816
+attribut smd
+position 126.600000 110.200000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position -3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer front
+position  3.975000 -2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer front
+position  3.975000  2.250000  size  1.300000  1.550000  orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  S_up1
+
+$MODULE Y1
+footprint User_lib:CX2520DB12000D0GPSC1
+attribut smd
+position 128.475000 106.200000  orientation 0.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.850000 -0.650000  size  1.000000  1.200000  orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.850000 -0.650000  size  1.000000  1.200000  orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Rect Layer back
+position  0.850000  0.650000  size  1.000000  1.200000  orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Rect Layer back
+position -0.850000  0.650000  size  1.000000  1.200000  orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Y1
+
+$EndDESCRIPTION
